@@ -1,0 +1,7 @@
+{
+	"title": "个人blog",
+	"description": "我自己写的一些文章",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "output": "dist"
+}
