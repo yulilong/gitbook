@@ -1,0 +1,1292 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>深入浅出-6布局套路 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="CSS深入浅出-7BFC.html" />
+    
+    
+    <link rel="prev" href="CSS深入浅出-5Flex布局.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../readme.html">
+            
+                <a href="../../readme.html">
+            
+                    
+                    说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    HTML
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../html/HTML5-特性说明.html">
+            
+                <a href="../html/HTML5-特性说明.html">
+            
+                    
+                    HTML5-特性说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../html/HTML5-input标签介绍.html">
+            
+                <a href="../html/HTML5-input标签介绍.html">
+            
+                    
+                    input标签介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../html/HTML字符实体.html">
+            
+                <a href="../html/HTML字符实体.html">
+            
+                    
+                    HTML字符实体
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    JavaScript
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../JavaScript/JS-正则表达式.html">
+            
+                <a href="../JavaScript/JS-正则表达式.html">
+            
+                    
+                    正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../JavaScript/dom.html">
+            
+                <a href="../JavaScript/dom.html">
+            
+                    
+                    dom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../JavaScript/JS-排序算法.html">
+            
+                <a href="../JavaScript/JS-排序算法.html">
+            
+                    
+                    排序算法.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../JavaScript/JS-正则表达式.html">
+            
+                <a href="../JavaScript/JS-正则表达式.html">
+            
+                    
+                    正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../JavaScript/JS-1对象-构造函数-原型链.html">
+            
+                <a href="../JavaScript/JS-1对象-构造函数-原型链.html">
+            
+                    
+                    1对象-构造函数-原型链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../JavaScript/JS-2node搭建服务器、API接口编写.html">
+            
+                <a href="../JavaScript/JS-2node搭建服务器、API接口编写.html">
+            
+                    
+                    2node搭建服务器、API接口编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../JavaScript/JS-3this-call-apply-bind.html">
+            
+                <a href="../JavaScript/JS-3this-call-apply-bind.html">
+            
+                    
+                    3this-call-apply-bind
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../JavaScript/JS-4数据类型转换.html">
+            
+                <a href="../JavaScript/JS-4数据类型转换.html">
+            
+                    
+                    4数据类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../JavaScript/JS-5跨域.html">
+            
+                <a href="../JavaScript/JS-5跨域.html">
+            
+                    
+                    5跨域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../JavaScript/6Ajax.md">
+            
+                <span>
+            
+                    
+                    6Ajax
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../JavaScript/JS-7函数.html">
+            
+                <a href="../JavaScript/JS-7函数.html">
+            
+                    
+                    7函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="../JavaScript/JS-8Date日期.html">
+            
+                <a href="../JavaScript/JS-8Date日期.html">
+            
+                    
+                    8Date日期
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="../JavaScript/JS获取标签宽高及实例.html">
+            
+                <a href="../JavaScript/JS获取标签宽高及实例.html">
+            
+                    
+                    JS获取标签宽高及实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="../JavaScript/webpack教程.html">
+            
+                <a href="../JavaScript/webpack教程.html">
+            
+                    
+                    webpack教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" >
+            
+                <span>
+            
+                    
+                    高级
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.15.1" data-path="../JavaScript/advanced/常用的代码片段.md">
+            
+                <span>
+            
+                    
+                    常用的代码片段
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15.2" data-path="../JavaScript/advanced/浏览器兼容.html">
+            
+                <a href="../JavaScript/advanced/浏览器兼容.html">
+            
+                    
+                    浏览器兼容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15.3" data-path="../JavaScript/advanced/html-SEO搜索引擎优化.html">
+            
+                <a href="../JavaScript/advanced/html-SEO搜索引擎优化.html">
+            
+                    
+                    SEO搜索引擎优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15.4" data-path="../JavaScript/advanced/手机端页面开发.html">
+            
+                <a href="../JavaScript/advanced/手机端页面开发.html">
+            
+                    
+                    手机端页面开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15.5" data-path="../JavaScript/advanced/原生JS实现一些页面组件.html">
+            
+                <a href="../JavaScript/advanced/原生JS实现一些页面组件.html">
+            
+                    
+                    原生JS实现一些页面组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" >
+            
+                <span>
+            
+                    
+                    dom
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.16.1" data-path="../JavaScript/dom/dom-1节点的类型.html">
+            
+                <a href="../JavaScript/dom/dom-1节点的类型.html">
+            
+                    
+                    dom节点-1节点的类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16.2" data-path="../JavaScript/dom/dom-2节点的关系.html">
+            
+                <a href="../JavaScript/dom/dom-2节点的关系.html">
+            
+                    
+                    dom节点-2节点的关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16.3" data-path="../JavaScript/dom/dom-3节点的操作.html">
+            
+                <a href="../JavaScript/dom/dom-3节点的操作.html">
+            
+                    
+                    dom节点-3节点的操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16.4" data-path="../JavaScript/dom/dom-4-动态集合NodeLIst-HTMLCollection.html">
+            
+                <a href="../JavaScript/dom/dom-4-动态集合NodeLIst-HTMLCollection.html">
+            
+                    
+                    dom节点-4-HTMLCollection-NodeList
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16.5" data-path="../JavaScript/dom/dom-5Element.html">
+            
+                <a href="../JavaScript/dom/dom-5Element.html">
+            
+                    
+                    dom-5-Element
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="../JavaScript/designPattern/设计模式文档.html">
+            
+                <a href="../JavaScript/designPattern/设计模式文档.html">
+            
+                    
+                    JavaScript设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18" >
+            
+                <span>
+            
+                    
+                    vue、react框架模板搭建
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.18.1" data-path="../JavaScript/advanced/vue项目搭建.html">
+            
+                <a href="../JavaScript/advanced/vue项目搭建.html">
+            
+                    
+                    使用vue-cli搭建一个空项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18.2" data-path="../JavaScript/advanced/react项目搭建.html">
+            
+                <a href="../JavaScript/advanced/react项目搭建.html">
+            
+                    
+                    使用create-react-app搭建一个空项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    CSS
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="CSS-定位.html">
+            
+                <a href="CSS-定位.html">
+            
+                    
+                    position定位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="CSS常见样式下.html">
+            
+                <a href="CSS常见样式下.html">
+            
+                    
+                    常见样式下
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="CSS深入浅出-1宽度与高度笔记.html">
+            
+                <a href="CSS深入浅出-1宽度与高度笔记.html">
+            
+                    
+                    深入浅出-1宽度与高度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="CSS深入浅出-2堆叠上下文.html">
+            
+                <a href="CSS深入浅出-2堆叠上下文.html">
+            
+                    
+                    深入浅出-2堆叠上下文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="CSS深入浅出-3icon全解.html">
+            
+                <a href="CSS深入浅出-3icon全解.html">
+            
+                    
+                    深入浅出-3icon全解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="CSS深入浅出-4移动端页面-响应式.md">
+            
+                <span>
+            
+                    
+                    深入浅出-4移动端页面-响应式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="CSS深入浅出-5Flex布局.html">
+            
+                <a href="CSS深入浅出-5Flex布局.html">
+            
+                    
+                    深入浅出-5Flex布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.8" data-path="CSS深入浅出-6布局套路.html">
+            
+                <a href="CSS深入浅出-6布局套路.html">
+            
+                    
+                    深入浅出-6布局套路
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="CSS深入浅出-7BFC.html">
+            
+                <a href="CSS深入浅出-7BFC.html">
+            
+                    
+                    深入浅出-7BFC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="CSS深入浅出-8动态REM.html">
+            
+                <a href="CSS深入浅出-8动态REM.html">
+            
+                    
+                    深入浅出-8动态REM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="CSS-浏览器兼容.html">
+            
+                <a href="CSS-浏览器兼容.html">
+            
+                    
+                    浏览器兼容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="CSS垂直水平居中.html">
+            
+                <a href="CSS垂直水平居中.html">
+            
+                    
+                    垂直水平居中
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13" data-path="Normalize.css和Reset CSS.html">
+            
+                <a href="Normalize.css和Reset CSS.html">
+            
+                    
+                    Normalize.css和Reset CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14" data-path="LESS-SCSS语法.html">
+            
+                <a href="LESS-SCSS语法.html">
+            
+                    
+                    LESS-SCSS语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15" data-path="CSS常用代码片段.html">
+            
+                <a href="CSS常用代码片段.html">
+            
+                    
+                    CSS常用代码片段
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16" data-path="CSS选择器.html">
+            
+                <a href="CSS选择器.html">
+            
+                    
+                    CSS选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    其他
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../other/前端笔试编程题.html">
+            
+                <a href="../other/前端笔试编程题.html">
+            
+                    
+                    前端笔试编程题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../other/前端面试题.html">
+            
+                <a href="../other/前端面试题.html">
+            
+                    
+                    前端面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../other/浏览器从输入URL到出现页面过程.html">
+            
+                <a href="../other/浏览器从输入URL到出现页面过程.html">
+            
+                    
+                    浏览器从输入URL到出现页面过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../other/饥人谷课堂笔记.html">
+            
+                <a href="../other/饥人谷课堂笔记.html">
+            
+                    
+                    饥人谷课堂笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../other/饥人谷每天一到面试题.html">
+            
+                <a href="../other/饥人谷每天一到面试题.html">
+            
+                    
+                    饥人谷每天一到面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../other/Emmet语法(HTML标签补全">
+            
+                <span>
+            
+                    
+                    Emmet语法(HTML标签补全)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../JS-需要编写的文档.html">
+            
+                <a href="../JS-需要编写的文档.html">
+            
+                    
+                    JS-需要编写的文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../other/z-临时文件.html">
+            
+                <a href="../other/z-临时文件.html">
+            
+                    
+                    z-临时文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >深入浅出-6布局套路</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x539F;&#x5219;">&#x539F;&#x5219;</h2>
+<ul>
+<li>&#x4E0D;&#x5230;&#x4E07;&#x4E0D;&#x5F97;&#x5DF2;&#xFF0C;&#x4E0D;&#x8981;&#x5199;&#x6B7B; width &#x548C; height</li>
+<li>&#x5C3D;&#x91CF;&#x7528;&#x9AD8;&#x7EA7;&#x8BED;&#x6CD5;&#xFF0C;&#x5982; calc&#x3001;flex</li>
+<li>&#x5982;&#x679C;&#x662F; IE&#xFF0C;&#x5C31;&#x5168;&#x90E8;&#x5199;&#x6B7B;</li>
+<li>&#x5E03;&#x5C40;&#x7684;div&#x53EA;&#x7528;&#x6765;&#x505A;&#x5E03;&#x5C40;&#xFF0C;&#x5185;&#x5BB9;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;div&#x53BB;&#x5199;</li>
+</ul>
+<h2 id="&#x5E03;&#x5C40;&#x65B9;&#x5F0F;">&#x5E03;&#x5C40;&#x65B9;&#x5F0F;</h2>
+<ul>
+<li>&#x9700;&#x8981;&#x517C;&#x5BB9;IE8&#xFF1A;</li>
+</ul>
+<p>float&#x5E03;&#x5C40;&#xFF1A; &#x5B9A;&#x5BBD;</p>
+<ul>
+<li>&#x4E0D;&#x9700;&#x8981;&#x517C;&#x5BB9;IE8&#xFF1A;</li>
+</ul>
+<p>flex&#x5E03;&#x5C40;&#xFF1A;&#x5F39;&#x6027;&#x5BBD;&#x5EA6;</p>
+<h3 id="float&#x5E03;&#x5C40;">float&#x5E03;&#x5C40;</h3>
+<ol>
+<li>&#x7ED9;&#x5B50;&#x5143;&#x7D20;&#x52A0;&#xFF1A;<code>float: left</code>&#x6216;<code>float:right</code></li>
+<li>&#x7236;&#x5143;&#x7D20;&#x6E05;&#x9664;&#x6D6E;&#x52A8;&#xFF1A;<code>clearfix</code></li>
+<li>&#x5982;&#x679C;&#x5BBD;&#x5EA6;&#x4E0D;&#x591F;&#xFF0C;&#x53EF;&#x4EE5;&#x7528; margin: 0 -4px;   </li>
+</ol>
+<pre><code>.clearfix:after{
+    content: &apos;&apos;;
+    display: block;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+</code></pre><h3 id="flex&#x5E03;&#x5C40;">flex&#x5E03;&#x5C40;</h3>
+<ol>
+<li>&#x7236;&#x5143;&#x7D20;&#x52A0;<code>display:flex</code></li>
+<li>&#x7236;&#x5143;&#x7D20;&#x52A0;<code>justify-content: space-between;</code></li>
+<li>&#x5982;&#x679C;&#x5BBD;&#x5EA6;&#x4E0D;&#x591F;&#xFF0C;&#x53EF;&#x4EE5;&#x7528; margin: 0 -4px;  </li>
+</ol>
+<h2 id="&#x5199;&#x4E00;&#x4E2A;&#x9875;&#x9762;">&#x5199;&#x4E00;&#x4E2A;&#x9875;&#x9762;</h2>
+<p>pc&#x7AEF;&#xFF1A;</p>
+<pre><code>+-------------------------------------------------------+
+|                                                       |
+| +--------+                 +----+ +----+ +---+ +----+ |
+| | logo   |                 | &#x83DC;&#x5355;| |&#x83DC;&#x5355;| |&#x83DC;&#x5355;| |&#x83DC;&#x5355; | |
+| +--------+                 +----+ +----+ +---+ +----+ |
+|   +-----------------------------------------------+   |
+|   |                                               |   |
+|   |        banner                                 |   |
+|   |                                               |   |
+|   |                                               |   |
+|   |                                               |   |
+|   +-----------------------------------------------+   |
+|                                                       |
+|   +--------+  +---------+  +---------+  +---------+   |
+|   |        |  |         |  |         |  |         |   |
+|   |        |  |         |  |         |  |         |   |
+|   +--------+  +---------+  +---------+  +---------+   |
+|   +--------+  +---------+  +---------+  +---------+   |
+|   |        |  |         |  |         |  |         |   |
+|   +--------+  +---------+  +---------+  +---------+   |
+|                                                       |
+|   +------------+  +-------------------------------+   |
+|   |            |  |                               |   |
+|   |            |  |                               |   |
+|   |            |  |                               |   |
+|   |            |  |                               |   |
+|   |            |  |                               |   |
+|   |            |  |                               |   |
+|   |            |  |                               |   |
+|   |            |  |                               |   |
+|   |            |  |                               |   |
+|   +------------+  +-------------------------------+   |
+|                                                       |
++-------------------------------------------------------+
+</code></pre><p>&#x624B;&#x673A;&#x7AEF;&#xFF1A;</p>
+<pre><code>+-----------------------------+
+| +--------+           +----+ |
+| |        |           |----| |
+| +--------+           +----+ |
+| +-------------------------+ |
+| |                         | |
+| |                         | |
+| |                         | |
+| +-------------------------+ |
+|  +--------+  +----------+   |
+|  |        |  |          |   |
+|  |        |  |          |   |
+|  +--------+  +----------+   |
+|  +--------+  +----------+   |
+|  |        |  |          |   |
+|  +--------+  +----------+   |
+|  +--------+  +----------+   |
+|  |        |  |          |   |
+|  +--------+  +----------+   |
++-----------------------------+
+</code></pre><h2 id="&#x684C;&#x9762;&#x5E03;&#x5C40;">&#x684C;&#x9762;&#x5E03;&#x5C40;</h2>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+    * {<span class="hljs-attribute">box-sizing</span>: border-box;}
+    <span class="hljs-selector-class">.clearfix</span><span class="hljs-selector-pseudo">:after</span>{<span class="hljs-attribute">content</span>: <span class="hljs-string">&apos;&apos;</span>; <span class="hljs-attribute">display</span>: block; <span class="hljs-attribute">clear</span>:both;}
+    <span class="hljs-selector-class">.clearfix</span> {<span class="hljs-attribute">zoom</span>: <span class="hljs-number">1</span>;} <span class="hljs-comment">/*IE6*/</span>
+
+    <span class="hljs-selector-class">.parent</span> {<span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid; <span class="hljs-attribute">padding</span>: <span class="hljs-number">5px</span>;
+      <span class="hljs-attribute">background</span>: <span class="hljs-number">#ddd</span>; <span class="hljs-attribute">text-align</span>: center; <span class="hljs-attribute">min-width</span>: <span class="hljs-number">600px</span>;
+    }
+    <span class="hljs-selector-class">.logo</span> {<span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid;
+      <span class="hljs-attribute">background</span>: black; <span class="hljs-attribute">color</span>: white; <span class="hljs-attribute">width</span>: <span class="hljs-number">70px</span>;
+      <span class="hljs-attribute">line-height</span>: <span class="hljs-number">36px</span>;
+    }
+    <span class="hljs-selector-class">.menu</span> &gt; <span class="hljs-selector-tag">div</span> {<span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid; 
+      <span class="hljs-attribute">line-height</span>: <span class="hljs-number">36px</span>; <span class="hljs-attribute">margin-left</span>: <span class="hljs-number">10px</span>;}
+
+    <span class="hljs-selector-class">.banner</span> {
+      <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid; <span class="hljs-attribute">width</span>: <span class="hljs-number">600px</span>; <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>;
+      <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span> auto <span class="hljs-number">0</span> auto; <span class="hljs-attribute">background</span>: <span class="hljs-number">#ccc</span>;
+    }
+    <span class="hljs-selector-class">.pictures</span> { <span class="hljs-attribute">width</span>: <span class="hljs-number">600px</span>; <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span> auto <span class="hljs-number">0</span> auto; }
+    <span class="hljs-selector-class">.middle</span> { <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> -<span class="hljs-number">20px</span>; }
+    <span class="hljs-selector-class">.picture</span> {
+      <span class="hljs-attribute">width</span>: <span class="hljs-number">120px</span>; <span class="hljs-attribute">height</span>: <span class="hljs-number">80px</span>;  <span class="hljs-attribute">background</span>: red;
+      <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid;
+    }
+
+    <span class="hljs-comment">/*&#x4F7F;&#x7528;float&#x5E03;&#x5C40;*/</span>
+    <span class="hljs-comment">/* .pic-float { float: left; margin: 20px; } */</span>
+
+    <span class="hljs-comment">/*&#x4F7F;&#x7528;flex&#x5E03;&#x5C40;&#xFF0C;&#x8FD9;&#x79CD;&#x5982;&#x679C;&#x4E00;&#x884C;&#x6709;&#x4E09;&#x4E2A;&#xFF0C;&#x90A3;&#x4E48;&#x4E5F;&#x662F;&#x5DE6;&#x5BF9;&#x9F50;*/</span>
+    <span class="hljs-selector-class">.pictures-flex</span> { <span class="hljs-attribute">display</span>: flex; <span class="hljs-attribute">flex-wrap</span>: wrap; }
+    <span class="hljs-selector-class">.pic-flex</span> { <span class="hljs-attribute">margin</span>: <span class="hljs-number">15px</span>; <span class="hljs-attribute">width</span>: <span class="hljs-built_in">calc</span>(25% - 30px); <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">10px</span>; }
+    <span class="hljs-selector-class">.middle</span> { <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> -<span class="hljs-number">15px</span>; }
+
+    <span class="hljs-comment">/*&#x4F7F;&#x7528;flex&#x5E03;&#x5C40;&#xFF0C;&#x8FD9;&#x79CD;&#x7684;&#x4E00;&#x884C;&#x5FC5;&#x987B;4&#x4E2A;&#xFF0C; &#x5426;&#x5219;&#x4F1A;&#x4E24;&#x8FB9;&#x5BF9;&#x9F50;&#xFF0C;*/</span>
+    <span class="hljs-comment">/* .pictures-flex {
+      display: flex; flex-wrap: wrap; justify-content: space-between;
+    }
+    .pic-flex { width: 130px; margin-bottom: 10px; } 
+    .middle { margin: 0; } */</span>
+    <span class="hljs-comment">/*&#x5E7F;&#x544A;*/</span>
+    <span class="hljs-selector-class">.art</span> { <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid; <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> auto; <span class="hljs-attribute">width</span>: <span class="hljs-number">600px</span>; }
+    <span class="hljs-selector-class">.one</span> {
+      <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>; <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid; <span class="hljs-attribute">background</span>: <span class="hljs-number">#aaa</span>;
+      <span class="hljs-attribute">width</span>: <span class="hljs-built_in">calc</span>(33.3% - 20px); <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">20px</span>;
+    }
+    <span class="hljs-selector-class">.two</span> {
+      <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>; <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid; <span class="hljs-attribute">background</span>: <span class="hljs-number">#eee</span>; <span class="hljs-attribute">width</span>: <span class="hljs-number">66.66%</span>;
+    }
+    <span class="hljs-comment">/*&#x4F7F;&#x7528;float&#x5E03;&#x5C40;*/</span>
+     <span class="hljs-comment">/* .art &gt;div { float: left; } */</span>
+    <span class="hljs-comment">/*&#x4F7F;&#x7528;flex&#x5E03;&#x5C40;*/</span>
+    <span class="hljs-selector-class">.art</span> { <span class="hljs-attribute">display</span>: flex; }
+  </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;parent clearfix&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;logo&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;float: left&quot;</span>&gt;</span>logo<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;menu clearfix&quot;</span><span class="hljs-string">style=&quot;float:</span> <span class="hljs-attr">right</span>&quot;&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;float: left&quot;</span>&gt;</span>&#x83DC;&#x5355;1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;float: left&quot;</span>&gt;</span>&#x83DC;&#x5355;2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;float: left&quot;</span>&gt;</span>&#x83DC;&#x5355;3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;float: left&quot;</span>&gt;</span>&#x83DC;&#x5355;4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;float: left&quot;</span>&gt;</span>&#x83DC;&#x5355;5<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;banner&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pictures clearfix&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;middle  pictures-flex&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;picture pic-float pic-flex&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;picture pic-float pic-flex&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;picture pic-float pic-flex&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;picture pic-float pic-flex&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;picture pic-float pic-flex&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;picture pic-float pic-flex&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;picture pic-float pic-flex&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-comment">&lt;!-- &lt;div class=&quot;picture pic-float pic-flex&quot;&gt;&lt;/div&gt; --&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;art clearfix&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;one&quot;</span>&gt;</span>&#x5E7F;&#x544A;1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;two&quot;</span>&gt;</span>&#x5E7F;&#x544A;2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<p>add&#x4E0D;&#x80FD;&#x4F5C;&#x4E3A;CSS&#x7C7B;&#x540D;&#xFF0C; &#x56E0;&#x4E3A;&#x5F88;&#x6709;&#x53EF;&#x80FD;&#x88AB;&#x5E7F;&#x544A;&#x5C4F;&#x853D;&#x8F6F;&#x4EF6;&#x5C4F;&#x853D;&#x3002;</p>
+<h2 id="&#x624B;&#x673A;&#x5E03;&#x5C40;">&#x624B;&#x673A;&#x5E03;&#x5C40;</h2>
+<p>&#x4EE3;&#x7801;&#x5728;&#x4E0A;&#x9762;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x52A0;&#x4E86;&#x4E00;&#x4E9B;&#xFF0C;</p>
+<ul>
+<li>CSS&#x6837;&#x5F0F;&#x52A0;&#x8F7D;&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x7684;&#x540E;&#x9762;&#xFF0C;&#x8FD9;&#x6837;&#x5F53;&#x5207;&#x6362;&#x624B;&#x673A;&#x6D4F;&#x89C8;&#x65F6;&#xFF0C;&#x540E;&#x9762;&#x7684;&#x6837;&#x5F0F;&#x8986;&#x76D6;&#x524D;&#x9762;&#xFF0C;&#x5C31;&#x5E94;&#x7528;&#x624B;&#x673A;&#x5E03;&#x5C40;&#x3002;</li>
+<li>&#x4E0A;&#x9762;&#x7684;&#x83DC;&#x5355;&#x52A0;&#x4E86;&#x4E00;&#x4E2A;&#x6309;&#x94AE;&#xFF0C;&#x5F53;&#x624B;&#x673A;&#x4E0A;&#x6D4F;&#x89C8;&#x65F6;&#xFF0C;PC&#x4E0A;&#x7684;&#x83DC;&#x5355;&#x5F71;&#x85CF;&#xFF0C;&#x6539;&#x6210;&#x6309;&#x94AE;&#x663E;&#x793A;&#x3002;</li>
+</ul>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+    <span class="hljs-selector-class">.parent</span> <span class="hljs-selector-class">.menu2</span> {<span class="hljs-attribute">display</span>: none;}
+    @<span class="hljs-keyword">media</span> (max-width: <span class="hljs-number">420px</span>) {
+      * {<span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>; <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;}
+      <span class="hljs-selector-class">.parent</span> {<span class="hljs-attribute">min-width</span>: auto;}
+      <span class="hljs-selector-class">.parent</span> <span class="hljs-selector-class">.menu</span> {<span class="hljs-attribute">display</span>: none;}
+      <span class="hljs-selector-class">.parent</span> <span class="hljs-selector-class">.menu2</span> {<span class="hljs-attribute">display</span>: block;}
+      <span class="hljs-selector-class">.banner</span> {<span class="hljs-attribute">width</span>: auto;}
+       <span class="hljs-comment">/*&#x8FD9;&#x91CC;&#x4F7F;&#x7528;overflow&#x662F;&#x56E0;&#x4E3A;&#x56FE;&#x7247;&#x7684;div&#x5BBD;&#x5EA6;&#x5927;&#x4E8E;&#x5C4F;&#x5E55;&#x5BBD;&#x5EA6;&#x4E86;&#xFF0C;&#x6240;&#x4EE5;&#x52A0;&#x4E0A;&#x4E86;hidden*/</span>
+      <span class="hljs-selector-class">.pictures</span> { <span class="hljs-attribute">width</span>: auto; <span class="hljs-attribute">overflow</span>: hidden;}
+      <span class="hljs-selector-class">.pic-flex</span> { <span class="hljs-attribute">width</span>: <span class="hljs-built_in">calc</span>(50% - 30px);}
+      <span class="hljs-selector-class">.art</span> { <span class="hljs-attribute">width</span>: auto; <span class="hljs-attribute">flex-direction</span>: column;}
+      <span class="hljs-selector-class">.one</span>,<span class="hljs-selector-class">.two</span> { <span class="hljs-attribute">width</span>: auto; <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;}
+    }
+  </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;menu2&quot;</span>&gt;</span>&#x4E09;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- http://js.jirengu.com/qucof/12/edit?html,output --&gt;</span>
+</code></pre>
+<p>&#x5E03;&#x5C40;&#x5207;&#x6362;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5BBD;&#x5EA6;&#x53D8;&#x5316;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x60F3;&#x8981;&#x56FE;&#x7247;&#x4E0D;&#x53D8;&#x5F62;&#xFF0C;&#x90A3;&#x4E48;&#x4E45;&#x4E0D;&#x8981;&#x7528;img&#x6807;&#x7B7E;&#x3002;&#x4F7F;&#x7528; &#x80CC;&#x666F;&#x56FE;&#x7247;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">div</span> {
+    <span class="hljs-attribute">background</span>: transparent <span class="hljs-built_in">url</span>(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3591147451,1203661331&amp;fm=27&amp;gp=0.jpg) no-repeat center;
+      <span class="hljs-attribute">background-size</span>: cover;
+}
+</code></pre>
+<p>&#x5982;&#x679C;&#x975E;&#x8981;&#x5168;&#x663E;&#x793A;&#x641C;&#x7D22;&#x56FA;&#x5B9A;&#x6BD4;&#x4F8B;div</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="CSS深入浅出-5Flex布局.html" class="navigation navigation-prev " aria-label="Previous page: 深入浅出-5Flex布局">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="CSS深入浅出-7BFC.html" class="navigation navigation-next " aria-label="Next page: 深入浅出-7BFC">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"深入浅出-6布局套路","level":"1.5.8","depth":2,"next":{"title":"深入浅出-7BFC","level":"1.5.9","depth":2,"path":"doc/css/CSS深入浅出-7BFC.md","ref":"doc/css/CSS深入浅出-7BFC.md","articles":[]},"previous":{"title":"深入浅出-5Flex布局","level":"1.5.7","depth":2,"path":"doc/css/CSS深入浅出-5Flex布局.md","ref":"doc/css/CSS深入浅出-5Flex布局.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"doc/css/CSS深入浅出-6布局套路.md","mtime":"2018-05-14T02:44:07.983Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-30T03:47:33.035Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

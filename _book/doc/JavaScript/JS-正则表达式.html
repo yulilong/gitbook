@@ -1,0 +1,1569 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>正则表达式 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="dom.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../readme.html">
+            
+                <a href="../../readme.html">
+            
+                    
+                    说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    HTML
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../html/HTML5-特性说明.html">
+            
+                <a href="../html/HTML5-特性说明.html">
+            
+                    
+                    HTML5-特性说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../html/HTML5-input标签介绍.html">
+            
+                <a href="../html/HTML5-input标签介绍.html">
+            
+                    
+                    input标签介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../html/HTML字符实体.html">
+            
+                <a href="../html/HTML字符实体.html">
+            
+                    
+                    HTML字符实体
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    JavaScript
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="JS-正则表达式.html">
+            
+                <a href="JS-正则表达式.html">
+            
+                    
+                    正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="dom.html">
+            
+                <a href="dom.html">
+            
+                    
+                    dom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="JS-排序算法.html">
+            
+                <a href="JS-排序算法.html">
+            
+                    
+                    排序算法.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.4" data-path="JS-正则表达式.html">
+            
+                <a href="JS-正则表达式.html">
+            
+                    
+                    正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="JS-1对象-构造函数-原型链.html">
+            
+                <a href="JS-1对象-构造函数-原型链.html">
+            
+                    
+                    1对象-构造函数-原型链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="JS-2node搭建服务器、API接口编写.html">
+            
+                <a href="JS-2node搭建服务器、API接口编写.html">
+            
+                    
+                    2node搭建服务器、API接口编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="JS-3this-call-apply-bind.html">
+            
+                <a href="JS-3this-call-apply-bind.html">
+            
+                    
+                    3this-call-apply-bind
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="JS-4数据类型转换.html">
+            
+                <a href="JS-4数据类型转换.html">
+            
+                    
+                    4数据类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="JS-5跨域.html">
+            
+                <a href="JS-5跨域.html">
+            
+                    
+                    5跨域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="6Ajax.md">
+            
+                <span>
+            
+                    
+                    6Ajax
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="JS-7函数.html">
+            
+                <a href="JS-7函数.html">
+            
+                    
+                    7函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="JS-8Date日期.html">
+            
+                <a href="JS-8Date日期.html">
+            
+                    
+                    8Date日期
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="JS获取标签宽高及实例.html">
+            
+                <a href="JS获取标签宽高及实例.html">
+            
+                    
+                    JS获取标签宽高及实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="webpack教程.html">
+            
+                <a href="webpack教程.html">
+            
+                    
+                    webpack教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" >
+            
+                <span>
+            
+                    
+                    高级
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.15.1" data-path="advanced/常用的代码片段.md">
+            
+                <span>
+            
+                    
+                    常用的代码片段
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15.2" data-path="advanced/浏览器兼容.html">
+            
+                <a href="advanced/浏览器兼容.html">
+            
+                    
+                    浏览器兼容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15.3" data-path="advanced/html-SEO搜索引擎优化.html">
+            
+                <a href="advanced/html-SEO搜索引擎优化.html">
+            
+                    
+                    SEO搜索引擎优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15.4" data-path="advanced/手机端页面开发.html">
+            
+                <a href="advanced/手机端页面开发.html">
+            
+                    
+                    手机端页面开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15.5" data-path="advanced/原生JS实现一些页面组件.html">
+            
+                <a href="advanced/原生JS实现一些页面组件.html">
+            
+                    
+                    原生JS实现一些页面组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" >
+            
+                <span>
+            
+                    
+                    dom
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.16.1" data-path="dom/dom-1节点的类型.html">
+            
+                <a href="dom/dom-1节点的类型.html">
+            
+                    
+                    dom节点-1节点的类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16.2" data-path="dom/dom-2节点的关系.html">
+            
+                <a href="dom/dom-2节点的关系.html">
+            
+                    
+                    dom节点-2节点的关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16.3" data-path="dom/dom-3节点的操作.html">
+            
+                <a href="dom/dom-3节点的操作.html">
+            
+                    
+                    dom节点-3节点的操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16.4" data-path="dom/dom-4-动态集合NodeLIst-HTMLCollection.html">
+            
+                <a href="dom/dom-4-动态集合NodeLIst-HTMLCollection.html">
+            
+                    
+                    dom节点-4-HTMLCollection-NodeList
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16.5" data-path="dom/dom-5Element.html">
+            
+                <a href="dom/dom-5Element.html">
+            
+                    
+                    dom-5-Element
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="designPattern/设计模式文档.html">
+            
+                <a href="designPattern/设计模式文档.html">
+            
+                    
+                    JavaScript设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18" >
+            
+                <span>
+            
+                    
+                    vue、react框架模板搭建
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.18.1" data-path="advanced/vue项目搭建.html">
+            
+                <a href="advanced/vue项目搭建.html">
+            
+                    
+                    使用vue-cli搭建一个空项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18.2" data-path="advanced/react项目搭建.html">
+            
+                <a href="advanced/react项目搭建.html">
+            
+                    
+                    使用create-react-app搭建一个空项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    CSS
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../css/CSS-定位.html">
+            
+                <a href="../css/CSS-定位.html">
+            
+                    
+                    position定位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../css/CSS常见样式下.html">
+            
+                <a href="../css/CSS常见样式下.html">
+            
+                    
+                    常见样式下
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../css/CSS深入浅出-1宽度与高度笔记.html">
+            
+                <a href="../css/CSS深入浅出-1宽度与高度笔记.html">
+            
+                    
+                    深入浅出-1宽度与高度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../css/CSS深入浅出-2堆叠上下文.html">
+            
+                <a href="../css/CSS深入浅出-2堆叠上下文.html">
+            
+                    
+                    深入浅出-2堆叠上下文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../css/CSS深入浅出-3icon全解.html">
+            
+                <a href="../css/CSS深入浅出-3icon全解.html">
+            
+                    
+                    深入浅出-3icon全解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../css/CSS深入浅出-4移动端页面-响应式.md">
+            
+                <span>
+            
+                    
+                    深入浅出-4移动端页面-响应式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../css/CSS深入浅出-5Flex布局.html">
+            
+                <a href="../css/CSS深入浅出-5Flex布局.html">
+            
+                    
+                    深入浅出-5Flex布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../css/CSS深入浅出-6布局套路.html">
+            
+                <a href="../css/CSS深入浅出-6布局套路.html">
+            
+                    
+                    深入浅出-6布局套路
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../css/CSS深入浅出-7BFC.html">
+            
+                <a href="../css/CSS深入浅出-7BFC.html">
+            
+                    
+                    深入浅出-7BFC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="../css/CSS深入浅出-8动态REM.html">
+            
+                <a href="../css/CSS深入浅出-8动态REM.html">
+            
+                    
+                    深入浅出-8动态REM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="../css/CSS-浏览器兼容.html">
+            
+                <a href="../css/CSS-浏览器兼容.html">
+            
+                    
+                    浏览器兼容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="../css/CSS垂直水平居中.html">
+            
+                <a href="../css/CSS垂直水平居中.html">
+            
+                    
+                    垂直水平居中
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13" data-path="../css/Normalize.css和Reset CSS.html">
+            
+                <a href="../css/Normalize.css和Reset CSS.html">
+            
+                    
+                    Normalize.css和Reset CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14" data-path="../css/LESS-SCSS语法.html">
+            
+                <a href="../css/LESS-SCSS语法.html">
+            
+                    
+                    LESS-SCSS语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15" data-path="../css/CSS常用代码片段.html">
+            
+                <a href="../css/CSS常用代码片段.html">
+            
+                    
+                    CSS常用代码片段
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16" data-path="../css/CSS选择器.html">
+            
+                <a href="../css/CSS选择器.html">
+            
+                    
+                    CSS选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    其他
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../other/前端笔试编程题.html">
+            
+                <a href="../other/前端笔试编程题.html">
+            
+                    
+                    前端笔试编程题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../other/前端面试题.html">
+            
+                <a href="../other/前端面试题.html">
+            
+                    
+                    前端面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../other/浏览器从输入URL到出现页面过程.html">
+            
+                <a href="../other/浏览器从输入URL到出现页面过程.html">
+            
+                    
+                    浏览器从输入URL到出现页面过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../other/饥人谷课堂笔记.html">
+            
+                <a href="../other/饥人谷课堂笔记.html">
+            
+                    
+                    饥人谷课堂笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../other/饥人谷每天一到面试题.html">
+            
+                <a href="../other/饥人谷每天一到面试题.html">
+            
+                    
+                    饥人谷每天一到面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../other/Emmet语法(HTML标签补全">
+            
+                <span>
+            
+                    
+                    Emmet语法(HTML标签补全)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../JS-需要编写的文档.html">
+            
+                <a href="../JS-需要编写的文档.html">
+            
+                    
+                    JS-需要编写的文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../other/z-临时文件.html">
+            
+                <a href="../other/z-临时文件.html">
+            
+                    
+                    z-临时文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >正则表达式</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>[TOC]</p>
+<h2 id="&#x4E00;&#x3001;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4ECB;&#x7ECD;">&#x4E00;&#x3001;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4ECB;&#x7ECD;</h2>
+<p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF08;&#x82F1;&#x8BED;&#xFF1A;Regular Expression&#xFF0C;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x5E38;&#x7B80;&#x5199;&#x4E3A;regex&#x3001;regexp&#x6216;RE&#xFF09;&#x4F7F;&#x7528;&#x5355;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x6765;&#x63CF;&#x8FF0;&#x3001;&#x5339;&#x914D;&#x4E00;&#x7CFB;&#x5217;&#x7B26;&#x5408;&#x67D0;&#x4E2A;&#x53E5;&#x6CD5;&#x89C4;&#x5219;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x641C;&#x7D22;&#x6A21;&#x5F0F;&#x3002;           </p>
+<p>&#x641C;&#x7D22;&#x6A21;&#x5F0F;&#x53EF;&#x7528;&#x4E8E;&#x6587;&#x672C;&#x641C;&#x7D22;&#x548C;&#x6587;&#x672C;&#x66FF;&#x6362;&#x3002;</p>
+<h2 id="&#x4E8C;&#x3001;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;">&#x4E8C;&#x3001;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</h2>
+<ol>
+<li><p>&#x4F7F;&#x7528;JavaScript&#x5185;&#x7F6E;&#x5BF9;&#x8C61;RegExp&#x521B;&#x5EFA;     </p>
+<pre><code class="lang-javascript">   <span class="hljs-comment">// &#x5339;&#x914D;&#x624B;&#x673A;&#x53F7;(chrome &#x6D4F;&#x89C8;&#x5668; -&gt; Developer Tools -&gt; Console)</span>
+   <span class="hljs-keyword">var</span> reg1 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(<span class="hljs-string">&apos;1[3-9]\\d{9}&apos;</span>, <span class="hljs-string">&apos;g&apos;</span>)        =&gt; <span class="hljs-regexp">/1[3-9]\d{9}/g</span>
+   <span class="hljs-keyword">var</span> reg2 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(<span class="hljs-regexp">/1[3-9]\d{9}/m</span>)            =&gt; <span class="hljs-regexp">/1[3-9]\d{9}/m</span>
+   <span class="hljs-keyword">var</span> reg3 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(reg1, <span class="hljs-string">&apos;ig&apos;</span>)                =&gt; <span class="hljs-regexp">/1[3-9]\d{9}/gi</span>
+</code></pre>
+<p>RegExp(pattern, attributes)&#x6709;&#x4E24;&#x4E2A;&#x53C2;&#x6570;:</p>
+<p>&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;pattern: &#x5339;&#x914D;&#x89C4;&#x5219;&#xFF0C;&#x53EF;&#x4EE5;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x3001;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x3001;RegExp&#x5BF9;&#x8C61;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x5B57;&#x7B26;&#x4E32;<code>\</code>&#x9700;&#x8981;&#x8F6C;&#x4E49;<code>\\</code></p>
+<p>&#x7B2C;&#x4E8C;&#x4E2A;&#x662F;&#x53EF;&#x9009;&#x53C2;&#x6570;&#xFF0C;&#x8868;&#x793A;&#x5339;&#x914D;&#x6A21;&#x5F0F;&#xFF0C;&#x53EF;&#x9009;&#x503C;(&#x53EF;&#x7EC4;&#x5408;)&#xFF1A;</p>
+<blockquote>
+<p>g&#xFF1A;global&#xFF0C;&#x5168;&#x5C40;&#x5339;&#x914D;&#xFF0C;&#x627E;&#x5230;&#x6240;&#x6709;&#x5339;&#x914D;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x5728;&#x7B2C;&#x4E00;&#x4E2A;&#x5339;&#x914D;&#x540E;&#x505C;&#x6B62;</p>
+<p>i&#xFF1A;ingore case&#xFF0C;&#x5FFD;&#x7565;&#x5927;&#x5C0F;&#x5199;&#xFF0C;&#x9ED8;&#x8BA4;&#x5927;&#x5C0F;&#x5199;&#x654F;&#x611F;</p>
+<p>m&#xFF1A;multiple lines&#xFF0C;&#x591A;&#x884C;&#x641C;&#x7D22; , &#x5C06;&#x5F00;&#x59CB;&#x548C;&#x7ED3;&#x675F;&#x5B57;&#x7B26;&#xFF08;^&#x548C;$&#xFF09;&#x89C6;&#x4E3A;&#x5728;&#x591A;&#x884C;&#x4E0A;&#x5DE5;&#x4F5C;</p>
+<p>u: Unicode; &#x5C06;&#x6A21;&#x5F0F;&#x89C6;&#x4E3A;Unicode&#x5E8F;&#x5217;&#x70B9;&#x7684;&#x5E8F;&#x5217; </p>
+<p>y: &#x7C98;&#x6027;&#x5339;&#x914D;; &#x4EC5;&#x5339;&#x914D;&#x76EE;&#x6807;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x6B64;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;lastIndex&#x5C5E;&#x6027;&#x6307;&#x793A;&#x7684;&#x7D22;&#x5F15;(&#x5E76;&#x4E14;&#x4E0D;&#x5C1D;&#x8BD5;&#x4ECE;&#x4EFB;&#x4F55;&#x540E;&#x7EED;&#x7684;&#x7D22;&#x5F15;&#x5339;&#x914D;)&#x3002;</p>
+</blockquote>
+</li>
+<li><p>&#x8868;&#x8FBE;&#x5F0F;&#x5B57;&#x9762;&#x91CF;</p>
+<p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5B57;&#x9762;&#x91CF;&#x7531;&#x5305;&#x542B;&#x5728;&#x659C;&#x6760;&#x4E4B;&#x95F4;&#x5B57;&#x7B26;&#x7EC4;&#x6210;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> reg4 = <span class="hljs-regexp">/1[3-9]\d{9}/</span>        =&gt; <span class="hljs-regexp">/1[3-9]\d{9}/</span>
+<span class="hljs-keyword">var</span> reg5 = <span class="hljs-regexp">/1[3-9]\d{9}/g</span>        =&gt; <span class="hljs-regexp">/1[3-9]\d{9}/g</span>
+</code></pre>
+</li>
+</ol>
+<h2 id="&#x4E09;&#x3001;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x89C4;&#x5219;">&#x4E09;&#x3001;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x89C4;&#x5219;</h2>
+<p>&#x4E00;&#x4E2A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x6A21;&#x5F0F;&#x662F;&#x7531;&#x7B80;&#x5355;&#x7684;&#x5B57;&#x7B26;&#x6240;&#x6784;&#x6210;&#x7684;,&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#xFF08;&#x8F6C;&#x4E49;&#x5B57;&#x7B26;&#x7B97;&#x4E00;&#x4E2A;&#xFF09;&#x5BF9;&#x5E94;&#x5B57;&#x7B26;&#x4E32;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;.    </p>
+<p>&#x5982;<code>/abc/</code>&#x4E2D;&#xFF0C;&#x4EC5;&#x4EC5;&#x5F53;&apos;abc&apos;&#x540C;&#x65F6;&#x51FA;&#x73B0;&#x5E76;&#x6309;&#x7167;&#x8FD9;&#x4E2A;&#x987A;&#x5E8F;&#xFF0C;&quot;Hi abc&quot;&#x548C;&quot;My name is abc&quot;&#x4F1A;&#x5339;&#x914D;&#x5230;&apos;abc&apos;,&#x800C;&quot;Grab crab&quot;&#x4E2D;&#x5C06;&#x4E0D;&#x4F1A;&#x5339;&#x914D;&#x3002;</p>
+<p>&#x5F53;&#x4F60;&#x9700;&#x8981;&#x641C;&#x7D22;&#x4E00;&#x4E2A;&#x6BD4;&#x76F4;&#x63A5;&#x5339;&#x914D;&#x9700;&#x8981;&#x66F4;&#x591A;&#x6761;&#x4EF6;&#x7684;&#x5339;&#x914D;&#x65F6;,&#x6BD4;&#x5982;&#x5BFB;&#x627E;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A; &apos;b&apos;&#xFF0C;&#x6216;&#x8005;&#x5BFB;&#x627E;&#x7A7A;&#x683C;&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x65F6;&#x6A21;&#x5F0F;&#x5C06;&#x8981;&#x5305;&#x542B;&#x7279;&#x6B8A;&#x5B57;&#x7B26;&#x3002;</p>
+<h3 id="31-&#x5236;&#x8868;&#x7B26;">3.1 &#x5236;&#x8868;&#x7B26;</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x7B26;</th>
+<th style="text-align:left">&#x542B;&#x4E49;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">\t</td>
+<td style="text-align:left">&#x6C34;&#x5E73;&#x5236;&#x8868;&#x7B26;(&#x6C34;&#x5E73;tab)</td>
+</tr>
+<tr>
+<td style="text-align:left">\r</td>
+<td style="text-align:left">&#x56DE;&#x8F66;&#x7B26;</td>
+</tr>
+<tr>
+<td style="text-align:left">\n</td>
+<td style="text-align:left">&#x6362;&#x884C;&#x7B26;</td>
+</tr>
+<tr>
+<td style="text-align:left">\f</td>
+<td style="text-align:left">&#x6362;&#x9875;&#x7B26;(\x0c)</td>
+</tr>
+<tr>
+<td style="text-align:left">\v</td>
+<td style="text-align:left">&#x5782;&#x76F4;&#x5236;&#x8868;&#x7B26;(&#x7B49;&#x4E8E;\x0b),&#x5782;&#x76F4;tab</td>
+</tr>
+<tr>
+<td style="text-align:left">\0</td>
+<td style="text-align:left">&#x7A7A;&#x5B57;&#x7B26;(c/c++ &#x8BED;&#x8A00;&#x4E2D;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x7ED3;&#x675F;&#x7B26;&#xFF0C;&#x5728;ASCII&#x5B57;&#x7B26;&#x96C6;&#x4E2D;&#x5BF9;&#x5E94;&#x7A7A;&#x5B57;&#x7B26;NULL&#xFF0C;&#x6570;&#x503C;&#x4E3A;0)</td>
+</tr>
+</tbody>
+</table>
+<p>&#x4F7F;&#x7528;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&apos;\tda\nda&apos;</span>.match(<span class="hljs-regexp">/\t/</span>)        =&gt; [<span class="hljs-string">&quot;    &quot;</span>, index: <span class="hljs-number">0</span>, input: <span class="hljs-string">&quot;    da&#x21B5;da&quot;</span>]
+<span class="hljs-string">&apos;\tda\nda&apos;</span>.match(<span class="hljs-regexp">/\n/</span>)        =&gt; [<span class="hljs-string">&quot;&#x21B5;&quot;</span>, index: <span class="hljs-number">3</span>, input: <span class="hljs-string">&quot;    da&#x21B5;da&quot;</span>]
+</code></pre>
+<h3 id="32-&#x3001;&#x3001;&#x3001;&#xFF1A;&#x5B57;&#x7B26;&#x5408;&#x96C6;&#x3001;&#x6355;&#x83B7;&#x3001;&#x6216;">3.2 []&#x3001;<code>[^]</code>&#x3001;()&#x3001;|&#xFF1A;&#x5B57;&#x7B26;&#x5408;&#x96C6;&#x3001;&#x6355;&#x83B7;&#x3001;&#x6216;</h3>
+<table>
+<thead>
+<tr>
+<th>&#x5B57;&#x7B26;</th>
+<th>&#x542B;&#x4E49;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[abc]</td>
+<td>&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x96C6;&#x5408;&#x3002;&#x5339;&#x914D;&#x65B9;&#x62EC;&#x53F7;&#x7684;&#x4E2D;&#x4EFB;&#x610F;&#x5B57;&#x7B26;&#xFF0C;&#x5305;&#x62EC;&#x8F6C;&#x4E49;&#x5B57;&#x7B26;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x7834;&#x6298;&#x53F7;&#xFF08;-&#xFF09;&#x6765;&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x8303;&#x56F4;&#x3002;&#x5BF9;&#x4E8E;&#x70B9;&#xFF08;.&#xFF09;&#x548C;&#x661F;&#x53F7;&#xFF08;*&#xFF09;&#x8FD9;&#x6837;&#x7684;&#x7279;&#x6B8A;&#x7B26;&#x53F7;&#x5728;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x96C6;&#x4E2D;&#x6CA1;&#x6709;&#x7279;&#x6B8A;&#x7684;&#x610F;&#x4E49;&#x3002;&#x4ED6;&#x4EEC;&#x4E0D;&#x5FC5;&#x8FDB;&#x884C;&#x8F6C;&#x4E49;&#xFF0C;&#x4E0D;&#x8FC7;&#x8F6C;&#x4E49;&#x4E5F;&#x662F;&#x8D77;&#x4F5C;&#x7528;&#x7684;&#x3002; [abcd] &#x548C;[a-d]&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C; /[a-z.]+/ &#x548C;/[\w.]+/&#x4E00;&#x6837;&#x3002;</td>
+</tr>
+<tr>
+<td><code>[^a-c]</code></td>
+<td>&#x4E00;&#x4E2A;&#x53CD;&#x5411;&#x5B57;&#x7B26;&#x96C6;&#x3002;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C; &#x5B83;&#x5339;&#x914D;&#x4EFB;&#x4F55;&#x6CA1;&#x6709;&#x5305;&#x542B;&#x5728;&#x65B9;&#x62EC;&#x53F7;&#x4E2D;&#x7684;&#x5B57;&#x7B26;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x7834;&#x6298;&#x53F7;&#xFF08;-&#xFF09;&#x6765;&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x8303;&#x56F4;&#x3002;&#x4EFB;&#x4F55;&#x666E;&#x901A;&#x5B57;&#x7B26;&#x5728;&#x8FD9;&#x91CC;&#x90FD;&#x662F;&#x8D77;&#x4F5C;&#x7528;&#x7684;&#x3002;<code>[^abc]</code>&#x548C;<code>[^a-c]</code>&#x662F;&#x4E00;&#x6837;&#x7684;&#x3002;</td>
+</tr>
+<tr>
+<td>(x)</td>
+<td>&#x5339;&#x914D; &apos;x&apos; &#x5E76;&#x4E14;&#x8BB0;&#x4F4F;&#x5339;&#x914D;&#x9879;, &#x62EC;&#x53F7;&#x88AB;&#x79F0;&#x4E3A; <em>&#x6355;&#x83B7;&#x62EC;&#x53F7;</em>&#x3002;&#x6355;&#x83B7;&#x7684;&#x5185;&#x5BB9;&#x5B58;&#x5728;RegExp.&#xE07D;1&#x5230;RegExp.&#xE07D;9&#x4E2D;(&#x6700;&#x591A;&#x5B58;9&#x4E2A;)&#xFF0C; &#x5728;replace&#x65B9;&#x6CD5;&#x4E2D;&#xFF0C;&#x5219;&#x8981;&#x4F7F;&#x7528;<code>$1</code>&#x3001;<code>$2</code>&#x3001;<code>$n</code> &#x8FD9;&#x6837;&#x7684;&#x8BED;&#x6CD5;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;<code>&apos;bar foo&apos;.replace( /(...) (...)/, &apos;$2 $1&apos; )</code></td>
+</tr>
+<tr>
+<td>(?:x)</td>
+<td>&#x5339;&#x914D; &apos;x&apos; &#x4F46;&#x662F;&#x4E0D;&#x8BB0;&#x4F4F;&#x5339;&#x914D;&#x9879;&#x3002;&#x53EB;&#x4F5C;&#x975E;&#x6355;&#x83B7;&#x62EC;&#x53F7;.&#x53EF;&#x7528;&#x6765;&#x5B9A;&#x4E49;&#x4E3A;&#x4E0E;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x8FD0;&#x7B97;&#x7B26;&#x4E00;&#x8D77;&#x4F7F;&#x7528;&#x7684;&#x5B50;&#x8868;&#x8FBE;&#x5F0F;&#x3002;&#x5982; /(?:foo){1,2}/&#x5219;{1,2}&#x4F1A;&#x5339;&#x914D;&#x6574;&#x4E2A; &#x2018;foo&#x2019; &#x5355;&#x8BCD;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#xFF1A;x|y : &#x5339;&#x914D;&#x2018;x&#x2019;&#x6216;&#x8005;&#x2018;y&#x2019;&#x3002; </p>
+<p>&#x4F7F;&#x7528;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// chrome &#x6D4F;&#x89C8;&#x5668; -&gt; Developer Tools -&gt; Console</span>
+<span class="hljs-string">&apos;@#$a2*()&apos;</span>.match(<span class="hljs-regexp">/[a-z][0-9]/</span>)            <span class="hljs-comment">// [&quot;a2&quot;, index: 3, input: &quot;@#$a2*()&quot;]</span>
+<span class="hljs-string">&apos;@#$a2*()&apos;</span>.match(<span class="hljs-regexp">/[^a-z][^0-9]/</span>)        <span class="hljs-comment">// [&quot;@#&quot;, index: 0, input: &quot;@#$a2*()&quot;]</span>
+<span class="hljs-string">&apos;green apple&apos;</span>.match(<span class="hljs-regexp">/green|red/</span>)        <span class="hljs-comment">// [&quot;green&quot;, index: 0, input: &quot;green apple&quot;]</span>
+<span class="hljs-string">&apos;Hi, hello world&apos;</span>.match(<span class="hljs-regexp">/(hello).*(world)/</span>)    
+<span class="hljs-comment">// [&quot;hello world&quot;, &quot;hello&quot;, &quot;world&quot;, index: 4, input: &quot;Hi, hello world&quot;]</span>
+<span class="hljs-built_in">RegExp</span>.$<span class="hljs-number">1</span>        <span class="hljs-comment">//    &quot;hello&quot;</span>
+<span class="hljs-built_in">RegExp</span>.$<span class="hljs-number">2</span>        <span class="hljs-comment">//    &quot;world&quot;</span>
+<span class="hljs-built_in">RegExp</span>.$<span class="hljs-number">3</span>        <span class="hljs-comment">//    &quot;&quot;</span>
+<span class="hljs-string">&apos;Hi, hello world&apos;</span>.match(<span class="hljs-regexp">/(?:hello).*(world)/</span>)    
+<span class="hljs-comment">// [&quot;hello world&quot;, &quot;world&quot;, index: 4, input: &quot;Hi, hello world&quot;]</span>
+<span class="hljs-built_in">RegExp</span>.$<span class="hljs-number">1</span>        <span class="hljs-comment">// &quot;world&quot;</span>
+<span class="hljs-built_in">RegExp</span>.$<span class="hljs-number">2</span>        <span class="hljs-comment">// &quot;&quot;</span>
+</code></pre>
+<h3 id="33-&#x9884;&#x5B9A;&#x4E49;">3.3 &#x9884;&#x5B9A;&#x4E49;</h3>
+<p>&#x9884;&#x5B9A;&#x4E49;&#xFF1A; &#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x5B57;&#x7B26;&#x4EE3;&#x8868;&#x4E86;&#x4E00;&#x7C7B;&#x5B57;&#x7B26;&#x7684;&#x5408;&#x96C6;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>&#x5B57;&#x7B26;</th>
+<th style="text-align:left">&#x542B;&#x4E49;</th>
+<th>&#x76F8;&#x5F53;&#x4E8E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.</td>
+<td style="text-align:left">(&#x5C0F;&#x6570;&#x70B9;)&#x5339;&#x914D;&#x9664;&#x6362;&#x884C;&#x7B26;&#x4E4B;&#x5916;&#x7684;&#x4EFB;&#x4F55;&#x5355;&#x4E2A;&#x5B57;&#x7B26;</td>
+<td><code>[^\r\n]</code></td>
+</tr>
+<tr>
+<td>\d</td>
+<td style="text-align:left">&#x6570;&#x5B57;&#x5B57;&#x7B26;</td>
+<td><code>[0-9]</code></td>
+</tr>
+<tr>
+<td>\D</td>
+<td style="text-align:left">&#x975E;&#x6570;&#x5B57;&#x5B57;&#x7B26;</td>
+<td><code>[^0-9]</code></td>
+</tr>
+<tr>
+<td>\s</td>
+<td style="text-align:left">&#x7A7A;&#x767D;&#x7B26;( &#x7A7A;&#x683C;&#x3001;&#x5236;&#x8868;&#x7B26;&#x3001;&#x6362;&#x9875;&#x7B26;&#x548C;&#x6362;&#x884C;&#x7B26;)</td>
+<td><code>\f\n\r\t\v\u00a0\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff</code></td>
+</tr>
+<tr>
+<td>\S</td>
+<td style="text-align:left">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x975E;&#x7A7A;&#x767D;&#x5B57;&#x7B26;&#x3002;</td>
+<td><code>[^\s]</code></td>
+</tr>
+<tr>
+<td>\w</td>
+<td style="text-align:left">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x5355;&#x5B57;&#x5B57;&#x7B26;&#xFF08;&#x5B57;&#x6BCD;&#x3001;&#x6570;&#x5B57;&#x6216;&#x8005;&#x4E0B;&#x5212;&#x7EBF;&#xFF09;</td>
+<td><code>[A-Za-z0-9_]</code></td>
+</tr>
+<tr>
+<td>\W</td>
+<td style="text-align:left">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x975E;&#x5355;&#x5B57;&#x5B57;&#x7B26;</td>
+<td><code>[^A-Za-z0-9_]</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="34-&#x8FB9;&#x754C;">3.4 &#x8FB9;&#x754C;</h3>
+<p>&#x89C4;&#x5B9A;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x5B57;&#x7B26;&#x8868;&#x793A;&#x5339;&#x914D;&#x7684;&#x8FB9;&#x754C;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>&#x5B57;&#x7B26;</th>
+<th>&#x542B;&#x4E49;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>^</td>
+<td>&#x5339;&#x914D;&#x8F93;&#x5165;&#x7684;&#x5F00;&#x59CB;, &#x591A;&#x884C;&#x6807;&#x5FD7;&#x88AB;&#x8BBE;&#x7F6E;&#x4E3A;true&#xFF0C;&#x90A3;&#x4E48;&#x4E5F;&#x5339;&#x914D;&#x6362;&#x884C;&#x7B26;&#x540E;&#x7D27;&#x8DDF;&#x7684;&#x4F4D;&#x7F6E;&#x3002; /^A/ &#x4E0D;&#x4F1A;&#x5339;&#x914D; &quot;an A&quot; &#x4E2D;&#x7684; &apos;A&apos;, &#x4F1A;&#x5339;&#x914D; &quot;An E&quot; &#x4E2D;&#x7684; &apos;A&apos;&#x3002;&#x6CE8;&#xFF1A;^&#x5728;[]&#x4E2D;&#x542B;&#x4E49;&#x5C31;&#x53D8;&#x4E86;&#xFF0C;<code>[^]</code>&#x8868;&#x793A;&#x53D6;&#x53CD;&#x3002;</td>
+</tr>
+<tr>
+<td>$</td>
+<td>&#x5339;&#x914D;&#x8F93;&#x5165;&#x7684;&#x7ED3;&#x675F;&#x3002;&#x5982;&#x679C;&#x591A;&#x884C;&#x6807;&#x793A;&#x88AB;&#x8BBE;&#x7F6E;&#x4E3A;true&#xFF0C;&#x90A3;&#x4E48;&#x4E5F;&#x5339;&#x914D;&#x6362;&#x884C;&#x7B26;&#x524D;&#x7684;&#x4F4D;&#x7F6E;&#x3002; /t$/ &#x5E76;&#x4E0D;&#x4F1A;&#x5339;&#x914D; &quot;eater&quot; &#x4E2D;&#x7684; &apos;t&apos;&#xFF0C;&#x4F46;&#x662F;&#x4F1A;&#x5339;&#x914D; &quot;eat&quot; &#x4E2D;&#x7684; &apos;t&apos;&#x3002;</td>
+</tr>
+<tr>
+<td>\b</td>
+<td>&#x8BCD;&#x7684;&#x8FB9;&#x754C;&#x3002; /\bm/&#x5339;&#x914D;&#x201C;moon&#x201D;&#x4E2D;&#x5F97;&#x2018;m&#x2019;&#xFF0C; /oon\b/&#x5339;&#x914D;&quot;moon&quot;&#x4E2D;&#x5F97;&apos;oon&apos;&#x3002;</td>
+</tr>
+<tr>
+<td>\B</td>
+<td>&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x975E;&#x5355;&#x8BCD;&#x8FB9;&#x754C;&#x3002;&#x4ED6;&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x524D;&#x540E;&#x5B57;&#x7B26;&#x90FD;&#x662F;&#x76F8;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x4F4D;&#x7F6E;&#xFF1A;&#x90FD;&#x662F;&#x5355;&#x8BCD;&#x6216;&#x8005;&#x90FD;&#x4E0D;&#x662F;&#x5355;&#x8BCD;&#x3002;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x5F00;&#x59CB;&#x548C;&#x7ED3;&#x5C3E;&#x90FD;&#x88AB;&#x8BA4;&#x4E3A;&#x662F;&#x975E;&#x5355;&#x8BCD;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> str = <span class="hljs-string">&apos;hello1 whello9orld 12-hello8-3456 hello0&apos;</span>
+str.match(<span class="hljs-regexp">/^hello\d/g</span>)        <span class="hljs-comment">// [&quot;hello1&quot;]</span>
+str.match(<span class="hljs-regexp">/hello\d$/g</span>)        <span class="hljs-comment">// [&quot;hello0&quot;]</span>
+str.match(<span class="hljs-regexp">/\bhello\d\b/g</span>)    <span class="hljs-comment">// [&quot;hello1&quot;, &quot;hello8&quot;, &quot;hello0&quot;] // -&#x4E5F;&#x7528;&#x4E8E;&#x533A;&#x5206;&#x5355;&#x8BCD;&#x8FB9;&#x754C;</span>
+str.match(<span class="hljs-regexp">/\Bhello\d\B/g</span>)    <span class="hljs-comment">// [&quot;hello9&quot;]</span>
+str.match(<span class="hljs-regexp">/\Bhello\d/g</span>)        <span class="hljs-comment">// [&quot;hello9&quot;]</span>
+str.match(<span class="hljs-regexp">/hello\d\B/g</span>)        <span class="hljs-comment">// [&quot;hello9&quot;]</span>
+</code></pre>
+<h3 id="35-&#x91CF;&#x8BCD;">3.5 &#x91CF;&#x8BCD;</h3>
+<p>&#x4E0B;&#x9762;&#x4ECB;&#x7ECD;&#x7684;&#x5B57;&#x7B26;&#x53EF;&#x4EE5;&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x51FA;&#x73B0;&#x591A;&#x6B21;&#x7684;&#x5B9A;&#x4E49;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>&#x5B57;&#x7B26;</th>
+<th>&#x542B;&#x4E49;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>?</td>
+<td>&#x5339;&#x914D;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x8868;&#x8FBE;&#x5F0F;0&#x6B21;&#x6216;&#x8005;1&#x6B21;&#x3002;&#x7B49;&#x4EF7;&#x4E8E; {0,1}&#x3002; &#xFF08;&#x6700;&#x591A;&#x51FA;&#x73B0;&#x4E00;&#x6B21;&#xFF09;</td>
+</tr>
+<tr>
+<td>+</td>
+<td>&#x5339;&#x914D;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x8868;&#x8FBE;&#x5F0F;1&#x6B21;&#x6216;&#x8005;&#x591A;&#x6B21;&#x3002;&#x7B49;&#x4EF7;&#x4E8E; {1,}&#x3002; &#xFF08;&#x81F3;&#x5C11;&#x51FA;&#x73B0;&#x4E00;&#x6B21;&#xFF09;</td>
+</tr>
+<tr>
+<td>*</td>
+<td>&#x5339;&#x914D;&#x524D;&#x4E00;&#x4E2A;&#x8868;&#x8FBE;&#x5F0F;0&#x6B21;&#x6216;&#x591A;&#x6B21;&#x3002;&#x7B49;&#x4EF7;&#x4E8E; {0,}&#x3002; &#xFF08;&#x4EFB;&#x610F;&#x6B21;&#xFF09;</td>
+</tr>
+<tr>
+<td>{n}</td>
+<td>n&#x662F;&#x4E00;&#x4E2A;&#x6B63;&#x6574;&#x6570;&#xFF0C;&#x5339;&#x914D;&#x4E86;&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x521A;&#x597D;&#x53D1;&#x751F;&#x4E86;n&#x6B21;&#x3002;</td>
+</tr>
+<tr>
+<td>{n,m}</td>
+<td>n&#x548C;m&#x90FD;&#x662F;&#x6574;&#x6570;&#x3002;&#x5339;&#x914D;&#x524D;&#x9762;&#x7684;&#x5B57;&#x7B26;&#x81F3;&#x5C11;n&#x6B21;,&#x6700;&#x591A;m&#x6B21;&#x3002;&#x5982;&#x679C;n&#x6216;&#x8005;m&#x7684;&#x503C;&#x662F;0,&#x8FD9;&#x4E2A;&#x503C;&#x88AB;&#x5FFD;&#x7565;&#x3002;</td>
+</tr>
+<tr>
+<td>{n,}</td>
+<td>&#x524D;&#x9762;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x81F3;&#x5C11;&#x51FA;&#x73B0;n&#x6B21;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x5339;&#x914D;&#x624B;&#x673A;&#x53F7; (chrome &#x6D4F;&#x89C8;&#x5668; -&gt; Developer Tools -&gt; Console)</span>
+<span class="hljs-string">&apos;dsa+8613244043289sss&apos;</span>.match(<span class="hljs-regexp">/(\+86)?1[2-8]\d{9}/</span>)    
+<span class="hljs-comment">// [&quot;+8613244043289&quot;, &quot;+86&quot;, index: 3, input: &quot;dsa+8613244043289sss&quot;]</span>
+<span class="hljs-string">&apos;dsa13244043289sss&apos;</span>.match(<span class="hljs-regexp">/(?:\+86)?1[2-8]\d{9}/</span>)    
+<span class="hljs-comment">// [&quot;13244043289&quot;, index: 3, input: &quot;dsa13244043289sss&quot;]</span>
+<span class="hljs-string">&apos;hello worldworld&apos;</span>.match(<span class="hljs-regexp">/(?:world){1,2}/</span>)    
+<span class="hljs-comment">// [&quot;worldworld&quot;, index: 6, input: &quot;hello worldworld&quot;]</span>
+<span class="hljs-string">&apos;hello worldworld&apos;</span>.match(<span class="hljs-regexp">/(?:world){1}/</span>)    
+<span class="hljs-comment">// [&quot;world&quot;, index: 6, input: &quot;hello worldworld&quot;]</span>
+</code></pre>
+<h3 id="36-&#x65AD;&#x8A00;assertionsxyxy">3.6 &#x65AD;&#x8A00;(Assertions):<code>x(?=y)</code>,<code>x(?!y)</code></h3>
+<table>
+<thead>
+<tr>
+<th>&#x5B57;&#x7B26;</th>
+<th>&#x542B;&#x4E49;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x(?=y)</td>
+<td>&#x4EC5;&#x5339;&#x914D;&#x88AB;y&#x8DDF;&#x968F;&#x7684;x&#x3002;</td>
+</tr>
+<tr>
+<td>x(?!y)</td>
+<td>&#x4EC5;&#x5339;&#x914D;&#x4E0D;&#x88AB;y&#x8DDF;&#x968F;&#x7684;x</td>
+</tr>
+</tbody>
+</table>
+<p>&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&apos;Hi, hello world&apos;</span>.match(<span class="hljs-regexp">/hello(?= world)/</span>)
+<span class="hljs-comment">// [&quot;hello&quot;, index: 4, input: &quot;Hi, hello world&quot;]</span>
+<span class="hljs-string">&apos;Hi, hello Jack&apos;</span>.match(<span class="hljs-regexp">/hello(?= world)/</span>)    <span class="hljs-comment">// null   </span>
+<span class="hljs-string">&apos;3.141&apos;</span>.match(<span class="hljs-regexp">/\d+(?!\.)/</span>)                    <span class="hljs-comment">// [&quot;141&quot;, index: 2, input: &quot;3.141&quot;]</span>
+</code></pre>
+<h3 id="37-&#x8D2A;&#x5A6A;&#x6A21;&#x5F0F;&#x548C;&#x975E;&#x8D2A;&#x5A6A;&#x6A21;&#x5F0F;">3.7 &#x8D2A;&#x5A6A;&#x6A21;&#x5F0F;&#x548C;&#x975E;&#x8D2A;&#x5A6A;&#x6A21;&#x5F0F;</h3>
+<h4 id="371-&#x8D2A;&#x5A6A;&#x6A21;&#x5F0F;&#x9ED8;&#x8BA4;">3.7.1 &#x8D2A;&#x5A6A;&#x6A21;&#x5F0F;(&#x9ED8;&#x8BA4;)</h4>
+<p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x89C4;&#x5219;&#x4E2D;&#xFF0C;&#x91CF;&#x8BCD;&#x7684;&#x5339;&#x914D;&#x7684;&#x89C4;&#x5219;&#x662F;&#x5C3D;&#x53EF;&#x80FD;&#x591A;&#x7684;&#x5339;&#x914D;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8D2A;&#x5A6A;&#x6A21;&#x5F0F;&#x3002;</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&apos;a+8613244043289s&apos;</span>.match(<span class="hljs-regexp">/\d{4,8}/g</span>)    <span class="hljs-comment">// [&quot;86132440&quot;, &quot;43289&quot;]</span>
+</code></pre>
+<h4 id="372-&#x975E;&#x8D2A;&#x5A6A;&#x6A21;&#x5F0F;&#x9700;&#x8BBE;&#x7F6E;">3.7.2 &#x975E;&#x8D2A;&#x5A6A;&#x6A21;&#x5F0F;(&#x9700;&#x8BBE;&#x7F6E;)</h4>
+<p>&#x4E5F;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x91CF;&#x8BCD;(&#x91CF;&#x8BCD;&#x540E;&#x52A0;&#x4E0A;<code>?</code>&#x5373;&#x53EF;)&#x8BA9;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5C3D;&#x53EF;&#x80FD;&#x5C11;&#x7684;&#x5339;&#x914D;&#xFF0C;&#x79F0;&#x975E;&#x8D2A;&#x5A6A;&#x6A21;&#x5F0F;&#x3002;</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&apos;a+8613244043289s&apos;</span>.match(<span class="hljs-regexp">/\d{4,8}?/g</span>)    <span class="hljs-comment">// [&quot;8613&quot;, &quot;2440&quot;, &quot;4328&quot;]</span>
+</code></pre>
+<h2 id="&#x56DB;&#x3001;javascript&#x4E2D;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x76F8;&#x5173;&#x65B9;&#x6CD5;">&#x56DB;&#x3001;javascript&#x4E2D;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x76F8;&#x5173;&#x65B9;&#x6CD5;</h2>
+<p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5BF9;&#x8C61;&#x672C;&#x8EAB;&#x5B58;&#x5728;&#x4E00;&#x4E9B;&#x5C5E;&#x6027;&#xFF0C;&#x53EF;&#x4F9B;&#x4F7F;&#x7528;&#xFF1A;</p>
+<pre><code class="lang-javascript">reg1 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(<span class="hljs-regexp">/\d{3}/</span>, <span class="hljs-string">&apos;g&apos;</span>)        <span class="hljs-comment">// /\d{3}/g</span>
+reg1.lastIndex        <span class="hljs-comment">// 0</span>
+reg1.ignoreCase        <span class="hljs-comment">// false</span>
+reg1.multiline        <span class="hljs-comment">// false</span>
+reg1.global            <span class="hljs-comment">// true</span>
+reg1.source            <span class="hljs-comment">// &quot;\d{3}&quot;</span>
+reg2 = <span class="hljs-regexp">/^.{3}/im</span>                    <span class="hljs-comment">// /^.{3}/im</span>
+reg2.multiline        <span class="hljs-comment">// true</span>
+</code></pre>
+<p>&#x8FD9;&#x4E9B;&#x5C5E;&#x6027;&#x8BF4;&#x660E;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x5C5E;&#x6027;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lastIndex</td>
+<td>&#x4E0B;&#x6B21;&#x5339;&#x914D;&#x5F00;&#x59CB;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x7D22;&#x5F15;&#x4F4D;&#x7F6E;</td>
+</tr>
+<tr>
+<td>ignoreCase</td>
+<td>&#x662F;&#x5426;&#x4F7F;&#x7528;&#x4E86;&apos;i&apos;&#x6807;&#x8BB0;&#x4F7F;&#x6B63;&#x5219;&#x5339;&#x914D;&#x5FFD;&#x7565;&#x5927;&#x5C0F;&#x5199;</td>
+</tr>
+<tr>
+<td>global</td>
+<td>&#x662F;&#x5426;&#x4F7F;&#x7528;&#x4E86;&apos;g&apos;&#x6807;&#x8BB0;&#x6765;&#x8FDB;&#x884C;&#x5168;&#x5C40;&#x7684;&#x5339;&#x914D;</td>
+</tr>
+<tr>
+<td>multiline</td>
+<td>&#x662F;&#x5426;&#x4F7F;&#x7528;&#x4E86;&apos;<code>m&apos;</code>&#x6807;&#x8BB0;&#x4F7F;&#x6B63;&#x5219;&#x5DE5;&#x4F5C;&#x5728;&#x591A;&#x884C;&#x6A21;&#x5F0F;&#xFF08;&#x4E5F;&#x5C31;&#x662F;&#xFF0C;^ &#x548C; $ &#x53EF;&#x4EE5;&#x5339;&#x914D;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x6BCF;&#x4E00;&#x884C;&#x7684;&#x5F00;&#x59CB;&#x548C;&#x7ED3;&#x675F;&#xFF08;&#x884C;&#x662F;&#x7531; \n &#x6216; \r &#x5206;&#x5272;&#x7684;&#xFF09;&#xFF0C;&#x800C;&#x4E0D;&#x53EA;&#x662F;&#x6574;&#x4E2A;&#x8F93;&#x5165;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x6700;&#x5F00;&#x59CB;&#x548C;&#x6700;&#x672B;&#x5C3E;&#x5904;&#x3002;</td>
+</tr>
+<tr>
+<td>source</td>
+<td>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="41&#x3001;regexp&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;">4.1&#x3001;RegExp&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;</h3>
+<h4 id="411&#x3001;regexpprototypeteststr">4.1.1&#x3001;RegExp.prototype.test(str)</h4>
+<blockquote>
+<p>&#x65B9;&#x6CD5;&#x4ECB;&#x7ECD;&#xFF1A; &#x7528;&#x4E8E;&#x6D4B;&#x8BD5;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x662F;&#x5426;&#x5B58;&#x5728;&#x5339;&#x914D;&#x7684;&#x5185;&#x5BB9;</p>
+<p>&#x53C2;&#x6570;(str)&#xFF1A;&#x7528;&#x6765;&#x4E0E;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5339;&#x914D;&#x7684;&#x5B57;&#x7B26;&#x4E32;</p>
+<p>&#x8FD4;&#x56DE;&#x503C;&#xFF1A;&#x5982;&#x679C;&#x5B58;&#x5728;&#x5339;&#x914D;&#x7684;&#x5185;&#x5BB9;&#x5219;&#x8FD4;&#x56DE;true&#xFF0C;&#x5426;&#x5219;&#x8FD4;&#x56DE;false</p>
+</blockquote>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> reg = <span class="hljs-regexp">/1[3-8]\d{9}/g</span>
+reg.test(<span class="hljs-string">&apos;a+8613244043289s&apos;</span>)        <span class="hljs-comment">// true</span>
+reg.test(<span class="hljs-string">&apos;xiaoxiao@163.com&apos;</span>)        <span class="hljs-comment">// false</span>
+</code></pre>
+<h4 id="412&#x3001;regexpprototypeexecstr">4.1.2&#x3001;RegExp.prototype.exec(str)</h4>
+<blockquote>
+<p>&#x65B9;&#x6CD5;&#x4ECB;&#x7ECD;&#xFF1A;&#x5728;&#x4E00;&#x4E2A;&#x6307;&#x5B9A;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x6267;&#x884C;&#x4E00;&#x4E2A;&#x641C;&#x7D22;&#x5339;&#x914D;&#xFF0C;&#x5982;&#x679C;&#x8BBE;&#x7F6E;&#x4E86;&#x5168;&#x5C40;&#x5339;&#x914D;(&apos;g&apos;)&#xFF0C;exec&#x53EF;&#x591A;&#x6B21;&#x6267;&#x884C;&#xFF0C;&#x6BCF;&#x6B21;&#x6267;&#x884C;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x5339;&#x914D;&#x7ED3;&#x679C;&#xFF0C;&#x76F4;&#x5230;&#x8FD4;&#x56DE;null&#x4E3A;&#x6B62;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x8BBE;&#x7F6E;&#x5168;&#x5C40;&#x5339;&#x914D;(&apos;g&apos;)&#xFF0C;&#x90A3;&#x4E48;&#x6BCF;&#x6B21;&#x6267;&#x884C;&#x7ED3;&#x679C;&#x90FD;&#x4E00;&#x6837;&#x3002;</p>
+<p>&#x53C2;&#x6570;(str)&#xFF1A;&#x7528;&#x6765;&#x4E0E;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5339;&#x914D;&#x7684;&#x5B57;&#x7B26;&#x4E32;</p>
+<p>&#x8FD4;&#x56DE;&#x503C;&#xFF1A;&#x5982;&#x679C;&#x5339;&#x914D;&#x6210;&#x529F;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x7ED3;&#x679C;&#x6570;&#x7EC4;&#xFF0C;&#x5E76;&#x66F4;&#x65B0;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x3002;&#x5982;&#x679C;&#x5339;&#x914D;&#x5931;&#x8D25;&#x8FD4;&#x56DE;null</p>
+</blockquote>
+<pre><code class="lang-javascript">/\d{<span class="hljs-number">3</span>}/.exec(<span class="hljs-string">&apos;+861330427&apos;</span>)            <span class="hljs-comment">// [&quot;861&quot;, index: 1, input: &quot;+861330427&quot;]</span>
+res = <span class="hljs-regexp">/&lt;%(.+?)%&gt;/</span>.exec(<span class="hljs-string">&apos;&lt;%href%&gt;&apos;</span>)    <span class="hljs-comment">// [&quot;&lt;%href%&gt;&quot;, &quot;href&quot;, index: 0, input: &quot;&lt;%href%&gt;&quot;]</span>
+res[<span class="hljs-number">1</span>]        <span class="hljs-comment">// &quot;href&quot;</span>
+res.index    <span class="hljs-comment">// 0</span>
+res.input    <span class="hljs-comment">// &quot;&lt;%href%&gt;&quot;</span>
+</code></pre>
+<p>exec&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x503C;(&#x6570;&#x7EC4;)&#x7ED3;&#x679C;&#x8BF4;&#x660E;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x5C5E;&#x6027;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[0]</td>
+<td>&#x5339;&#x914D;&#x7684;&#x7ED3;&#x679C;</td>
+</tr>
+<tr>
+<td>[1], &#x2026;&#x2026;[n]</td>
+<td>&#x62EC;&#x53F7;&#x4E2D;&#x7684;&#x5206;&#x7EC4;&#x6355;&#x83B7;</td>
+</tr>
+<tr>
+<td>index</td>
+<td>&#x5339;&#x914D;&#x5230;&#x7684;&#x5B57;&#x7B26;&#x4F4D;&#x4E8E;&#x539F;&#x59CB;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x57FA;&#x4E8E;0&#x7684;&#x7D22;&#x5F15;&#x503C;</td>
+</tr>
+<tr>
+<td>input</td>
+<td>&#x539F;&#x59CB;&#x5B57;&#x7B26;&#x4E32;</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>&#x5168;&#x5C40;&#x5339;&#x914D;(&apos;g&apos;)&#x7684;exec&#x6267;&#x884C;</p>
+<p>&#x5F53;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4F7F;&#x7528; &quot;<code>g</code>&quot; &#x6807;&#x5FD7;&#x65F6;&#xFF0C;&#x90A3;&#x4E48;&#x6BCF;&#x6B21;&#x6267;&#x884C; <code>exec</code>&#x65B9;&#x6CD5;&#x90FD;&#x4F1A;&#x4FEE;&#x6539;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5BF9;&#x8C61;&#x7684;lastIndex &#x5C5E;&#x6027;&#x503C;&#xFF0C;&#x5E76;&#x4E14;&#x67E5;&#x627E;&#x5C06;&#x4ECE;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;lastIndex&#x5C5E;&#x6027;&#x6307;&#x5B9A;&#x7684;&#x4F4D;&#x7F6E;&#x5F00;&#x59CB;&#x5339;&#x914D;&#xFF0C;&#x76F4;&#x5230;&#x67E5;&#x8BE2;&#x7ED3;&#x679C;&#x4E3A;null(&#x6B64;&#x65F6;&#x4F1A;&#x8BBE;&#x7F6E;lastIndex&#x7684;&#x503C;&#x4E3A;0)&#x3002;</p>
+<pre><code class="lang-javascript">reg = <span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(<span class="hljs-regexp">/\d{3}/</span>, <span class="hljs-string">&apos;g&apos;</span>)        <span class="hljs-comment">// /\d{3}/g</span>
+reg = <span class="hljs-regexp">/\d{3}/g</span>            <span class="hljs-comment">// /\d{3}/g</span>
+reg.lastIndex            <span class="hljs-comment">// 0</span>
+reg.exec(<span class="hljs-string">&apos;13304273390&apos;</span>)    <span class="hljs-comment">// [&quot;133&quot;, index: 0, input: &quot;13304273390&quot;]</span>
+reg.lastIndex            <span class="hljs-comment">// 3</span>
+reg.exec(<span class="hljs-string">&apos;13304273390&apos;</span>)    <span class="hljs-comment">// [&quot;042&quot;, index: 3, input: &quot;13304273390&quot;]</span>
+reg.lastIndex            <span class="hljs-comment">// 6</span>
+reg.exec(<span class="hljs-string">&apos;13304273390&apos;</span>)    <span class="hljs-comment">// [&quot;733&quot;, index: 6, input: &quot;13304273390&quot;]</span>
+reg.lastIndex            <span class="hljs-comment">// 9</span>
+reg.exec(<span class="hljs-string">&apos;13304273390&apos;</span>)    <span class="hljs-comment">// null</span>
+reg.lastIndex            <span class="hljs-comment">// 0</span>
+</code></pre>
+</li>
+<li><p>&#x6CA1;&#x6709;&#x5168;&#x5C40;&#x5339;&#x914D;&#x7684;exec&#x6267;&#x884C;</p>
+<p>&#x5F53;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x6CA1;&#x6709;&#x4F7F;&#x7528; &quot;<code>g</code>&quot; &#x6807;&#x5FD7;&#x65F6;&#xFF0C;&#x90A3;&#x4E48;&#x591A;&#x6B21;&#x6267;&#x884C; <code>exec</code> &#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x7684;&#x7ED3;&#x679C;&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C;</p>
+<pre><code class="lang-javascript">reg = <span class="hljs-regexp">/\d{3}/</span>            <span class="hljs-comment">// /\d{3}/</span>
+reg.lastIndex            <span class="hljs-comment">// 0</span>
+reg.exec(<span class="hljs-string">&apos;13304273390&apos;</span>)    <span class="hljs-comment">// [&quot;133&quot;, index: 0, input: &quot;13304273390&quot;]</span>
+reg.lastIndex            <span class="hljs-comment">// 0</span>
+<span class="hljs-comment">// &#x518D;&#x6267;&#x884C;&#x4E00;&#x6B21;</span>
+reg.exec(<span class="hljs-string">&apos;13304273390&apos;</span>)    <span class="hljs-comment">// [&quot;133&quot;, index: 0, input: &quot;13304273390&quot;]</span>
+reg.lastIndex            <span class="hljs-comment">// 0</span>
+</code></pre>
+</li>
+</ul>
+<h3 id="42&#x3001;string&#x5BF9;&#x8C61;&#x4E2D;&#x5173;&#x4E8E;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x65B9;&#x6CD5;">4.2&#x3001;String&#x5BF9;&#x8C61;&#x4E2D;&#x5173;&#x4E8E;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x65B9;&#x6CD5;</h3>
+<h4 id="421&#x3001;stringprototypesearchregexp">4.2.1&#x3001;String.prototype.search(regexp)</h4>
+<blockquote>
+<p>&#x65B9;&#x6CD5;&#x4ECB;&#x7ECD;&#xFF1A;&#x68C0;&#x7D22;&#x4E0E;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x76F8;&#x5339;&#x914D;&#x7684;&#x5B50;&#x5B57;&#x7B26;&#x4E32;</p>
+<p>&#x53C2;&#x6570;(regexp)&#xFF1A;&#x4E00;&#x4E2A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5BF9;&#x8C61;&#xFF0C;&#x5982;&#x679C;&#x4F20;&#x5165;&#x7684;&#x4E0D;&#x662F;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5BF9;&#x8C61;&#xFF0C;&#x5219;&#x4F1A;&#x7528;new RegExp(regexp)&#x9690;&#x5F0F;&#x5730;&#x8F6C;&#x4E3A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</p>
+<p>&#x8FD4;&#x56DE;&#x503C;&#xFF1A;&#x5982;&#x679C;&#x5339;&#x914D;&#x6210;&#x529F;&#x8FD4;&#x56DE;&#x7B26;&#x5408;&#x89C4;&#x5219;&#x5B50;&#x5B57;&#x7B26;&#x4E32;&#x7684;<strong>&#x7D22;&#x5F15;</strong>&#x3002;&#x5426;&#x5219;&#x8FD4;&#x56DE;-1.</p>
+</blockquote>
+<p>search()&#x65B9;&#x6CD5;&#x4E0D;&#x4F1A;&#x6267;&#x884C;&#x5168;&#x5C40;&#x5339;&#x914D;(&#x5FFD;&#x7565;&#x6807;&#x5FD7;&apos;g&apos;),&#x4E0D;&#x7BA1;&#x6267;&#x884C;&#x591A;&#x5C11;&#x6B21;&#xFF0C;&#x7ED3;&#x679C;&#x90FD;&#x4E00;&#x6837;&#xFF0C;&#x56E0;&#x4E3A;search()&#x65B9;&#x6CD5;&#x603B;&#x662F;&#x4ECE;&#x5B57;&#x7B26;&#x4E32;&#x5F00;&#x59CB;&#x4F4D;&#x7F6E;&#x8FDB;&#x884C;&#x68C0;&#x7D22;&#x3002;</p>
+<pre><code class="lang-javascript">reg = <span class="hljs-regexp">/\d{3}/</span>        <span class="hljs-comment">// /\d{3}/</span>
+reg1 = <span class="hljs-regexp">/\d{3}/g</span>        <span class="hljs-comment">// /\d{3}/g</span>
+<span class="hljs-string">&apos;&#x6211;&#x8FD8;&#x6709;100&#x5143;&apos;</span>.search(reg)    <span class="hljs-comment">// 3</span>
+<span class="hljs-string">&apos;&#x6211;&#x8FD8;&#x6709;100&#x5143;&apos;</span>.search(reg1)    <span class="hljs-comment">// 3</span>
+<span class="hljs-comment">// &#x518D;&#x6267;&#x884C;&#x4E00;&#x6B21;</span>
+<span class="hljs-string">&apos;&#x6211;&#x8FD8;&#x6709;100&#x5143;&apos;</span>.search(reg1)    <span class="hljs-comment">// 3</span>
+<span class="hljs-string">&apos;&#x6211;&#x8FD8;&#x6709;100&#x5143;&apos;</span>.search(reg)    <span class="hljs-comment">// 3</span>
+</code></pre>
+<h4 id="422&#x3001;stringprototypematchregexp">4.2.2&#x3001;String.prototype.match(regexp)</h4>
+<blockquote>
+<p>&#x65B9;&#x6CD5;&#x4ECB;&#x7ECD;&#xFF1A;&#x68C0;&#x7D22;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x627E;&#x5230;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x4E0E;regexp&#x5339;&#x914D;&#x7684;&#x6587;&#x672C;</p>
+<p>&#x53C2;&#x6570;(regexp)&#xFF1A; &#x4E0E;String.prototype.search(regexp)&#x7684;&#x53C2;&#x6570;&#x4E00;&#x6837;&#xFF0C;&#x6B64;&#x5916;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x672A;&#x63D0;&#x4F9B;&#x4EFB;&#x4F55;&#x53C2;&#x6570;&#xFF0C;&#x4F1A;&#x5F97;&#x5230;[&quot;&quot;]</p>
+<p>&#x8FD4;&#x56DE;&#x503C;&#xFF1A;    </p>
+<ol>
+<li>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5305;&#x542B; <code>g</code> &#x6807;&#x5FD7;(&#x5168;&#x5C40;&#x5339;&#x914D;)&#xFF1A;&#x8FD4;&#x56DE;&#x6570;&#x7EC4;&#xFF0C;&#x5305;&#x542B;&#x6240;&#x6709;&#x5339;&#x914D;&#x7684;&#x5B50;&#x5B57;&#x7B26;&#x4E32;&#x800C;&#x4E0D;&#x662F;&#x5339;&#x914D;&#x5BF9;&#x8C61;&#xFF0C;&#x6355;&#x83B7;&#x7EC4;&#x4E0D;&#x4F1A;&#x88AB;&#x8FD4;&#x56DE;(&#x62EC;&#x53F7;&#x6355;&#x83B7;)<ol>
+<li>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4E0D;&#x5305;&#x542B; <code>g</code> &#x6807;&#x5FD7;&#xFF1A;&#x8FD4;&#x56DE;&#x548C;<code>RegExp.exec()</code>&#x76F8;&#x540C;&#x7684;&#x7ED3;&#x679C;<ol>
+<li>&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5339;&#x914D;&#x5230;&#xFF1A;&#x8FD4;&#x56DE;null</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<pre><code class="lang-javascript"><span class="hljs-string">&apos;ss13304271122dd&apos;</span>.match(<span class="hljs-regexp">/\d{3}/</span>)    <span class="hljs-comment">// [&quot;133&quot;, index: 2, input: &quot;ss13304271122dd&quot;]</span>
+<span class="hljs-string">&apos;ss13304271122dd&apos;</span>.match(<span class="hljs-regexp">/\d{3}/g</span>)    <span class="hljs-comment">// [&quot;133&quot;, &quot;042&quot;, &quot;711&quot;]</span>
+<span class="hljs-string">&apos;hello world&apos;</span>.match(<span class="hljs-regexp">/\d{3}/</span>)        <span class="hljs-comment">// null</span>
+<span class="hljs-string">&apos;ss13304271122dd&apos;</span>.match(<span class="hljs-regexp">/\d{3}(0427)/</span>)    
+<span class="hljs-comment">// [&quot;1330427&quot;, &quot;0427&quot;, index: 2, input: &quot;ss13304271122dd&quot;]</span>
+<span class="hljs-string">&apos;ss13304271122dd&apos;</span>.match(<span class="hljs-regexp">/\d{3}(0427)/g</span>)    <span class="hljs-comment">// [&quot;1330427&quot;]</span>
+</code></pre>
+<h4 id="423&#x3001;stringprototypereplaceregexpsubstr-newsubstrfunction">4.2.3&#x3001;String.prototype.replace(regexp|substr, newSubStr|function)</h4>
+<blockquote>
+<p>&#x65B9;&#x6CD5;&#x4ECB;&#x7ECD;&#xFF1A;&#x7528;&#x4E8E;&#x5728;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x628A;&#x7279;&#x5B9A;&#x7684;&#x503C;&#x66FF;&#x6362;&#x6210;&#x65B0;&#x503C;&#xFF0C;&#x7279;&#x5B9A;&#x7684;&#x503C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x53BB;&#x627E;&#xFF0C;&#x65B0;&#x503C;&#x53EF;&#x4EE5;&#x662F;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x8005;&#x51FD;&#x6570;(&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;)&#x3002;&#x6CE8;&#x610F;&#xFF1A;&#x539F;&#x5B57;&#x7B26;&#x4E32;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#x3002;</p>
+<p>&#x53C2;&#x6570;&#xFF1A;</p>
+<ol>
+<li>regexp(&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;)&#xFF1A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x8BE5;&#x6B63;&#x5219;&#x6240;&#x5339;&#x914D;&#x7684;&#x5185;&#x5BB9;&#x4F1A;&#x88AB;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#x66FF;&#x6362;&#x6389;</li>
+<li>substr(&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;)&#xFF1A;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x8BE5;&#x5B57;&#x7B26;&#x4E32;&#x4F1A;&#x88AB;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#x66FF;&#x6362;&#x6389;</li>
+<li>newSubStr(&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;)&#xFF1A;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x7528;&#x4E8E;&#x66FF;&#x6362;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x65B0;&#x503C;</li>
+<li>function(&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;)&#xFF1A;&#x4E00;&#x4E2A;&#x7528;&#x6765;&#x521B;&#x5EFA;&#x65B0;&#x5B50;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#x5C06;&#x66FF;&#x6362;&#x6389;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x5339;&#x914D;&#x5230;&#x7684;&#x7ED3;&#x679C;</li>
+</ol>
+<p>&#x8FD4;&#x56DE;&#x503C;&#xFF1A;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5B57;&#x7B26;&#x4E32;</p>
+</blockquote>
+<p>&#x5728;replace&#x65B9;&#x6CD5;&#x4E2D;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x662F;&#x7ECF;&#x5E38;&#x7528;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x4F46;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x53EA;&#x80FD;&#x66FF;&#x6362;&#x4E00;&#x6B21;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&apos;xx@163.com,yy@163.com&apos;</span>.replace(<span class="hljs-string">&apos;163&apos;</span>, <span class="hljs-string">&apos;outlook&apos;</span>)    <span class="hljs-comment">//&quot;xx@outlook.com,yy@163.com&quot;</span>
+</code></pre>
+<p>&#x5982;&#x679C;&#x60F3;&#x5B9E;&#x73B0;&#x66F4;&#x590D;&#x6742;&#x7684;&#x66FF;&#x6362;(&#x591A;&#x4E2A;&#x503C;&#x66FF;&#x6362;&#x7B49;)&#xFF0C;&#x53EF;&#x4F7F;&#x7528;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4F5C;&#x4E3A;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&apos;xx@163.com,yy@163.com&apos;</span>.replace(<span class="hljs-regexp">/163/g</span>, <span class="hljs-string">&apos;outlook&apos;</span>)    <span class="hljs-comment">// &quot;xx@outlook.com,yy@outlook.com&quot;</span>
+<span class="hljs-string">&apos;xx@163.com,yy@163.com&apos;</span>.replace(<span class="hljs-regexp">/163/</span>, <span class="hljs-string">&apos;gmail&apos;</span>)        <span class="hljs-comment">// &quot;xx@gmail.com,yy@163.com&quot;</span>
+</code></pre>
+<p>&#x5982;&#x679C;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x90A3;&#x4E48;&#x7B2C;&#x4E8C;&#x53C2;&#x6570;&#x4E2D;&#x8FD8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4E2D;&#x6355;&#x83B7;&#x7684;&#x53D8;&#x91CF;&#xFF0C;&#x4F7F;&#x7528;<code>$1 ... $9</code>&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&apos;xx@gmail.com,yy@163.com&apos;</span>.replace(<span class="hljs-regexp">/(gmail)(.*)(163)/</span>, <span class="hljs-string">&apos;$3$2$1&apos;</span>)
+<span class="hljs-comment">// &quot;xx@163.com,yy@gmail.com&quot;</span>
+</code></pre>
+<h4 id="424&#x3001;stringprototypesplitseparator-limit">4.2.4&#x3001;String.prototype.split(separator, limit)</h4>
+<blockquote>
+<p>&#x65B9;&#x6CD5;&#x4ECB;&#x7ECD;&#xFF1A;&#x7528;&#x4E8E;&#x628A;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x5206;&#x5272;&#x6210;&#x5B57;&#x7B26;&#x4E32;&#x6570;&#x7EC4;&#x3002;</p>
+<p>&#x53C2;&#x6570;&#xFF1A;</p>
+<ol>
+<li>separator(&#x5FC5;&#x9700;)&#xFF1A;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x4ECE;&#x8BE5;&#x53C2;&#x6570;&#x6307;&#x5B9A;&#x7684;&#x5730;&#x65B9;&#x5206;&#x5272;&#x5B57;&#x7B26;&#x4E32;,&#x5982;&#x679C;&#x8BE5;&#x53C2;&#x6570;&#x662F;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;(&quot;&quot;)&#xFF0C;&#x5219;&#x5B57;&#x7B26;&#x4E32;&#x4F1A;&#x5728;&#x6BCF;&#x4E2A;&#x5B57;&#x7B26;&#x4E4B;&#x95F4;&#x5206;&#x5272;</li>
+<li>limit(&#x53EF;&#x9009;)&#xFF1A;&#x6307;&#x5B9A;&#x8FD4;&#x56DE;&#x7684;&#x6570;&#x7EC4;&#x7684;&#x6700;&#x5927;&#x957F;&#x5EA6;&#x3002;&#x8FD4;&#x56DE;&#x7684;&#x5B50;&#x4E32;&#x4E0D;&#x4F1A;&#x591A;&#x4E8E;&#x8FD9;&#x4E2A;&#x53C2;&#x6570;&#x6307;&#x5B9A;&#x7684;&#x6570;&#x7EC4;&#x3002;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x8BBE;&#x7F6E;&#x8BE5;&#x53C2;&#x6570;&#xFF0C;&#x6574;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x90FD;&#x4F1A;&#x88AB;&#x5206;&#x5272;</li>
+</ol>
+<p>&#x8FD4;&#x56DE;&#x503C;&#xFF1A;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x6570;&#x7EC4;&#x3002;&#x8BE5;&#x6570;&#x7EC4;&#x662F;&#x901A;&#x8FC7;&#x5728; <em>separator</em> &#x6307;&#x5B9A;&#x7684;&#x8FB9;&#x754C;&#x5904;&#x5C06;&#x5B57;&#x7B26;&#x4E32;&#x5206;&#x5272;&#x6210;&#x5B50;&#x4E32;&#x521B;&#x5EFA;&#x7684;&#x3002;&#x8FD4;&#x56DE;&#x7684;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x5B57;&#x4E32;&#x4E0D;&#x5305;&#x62EC; <em>separator</em> &#x81EA;&#x8EAB;</p>
+</blockquote>
+<p>&#x5982;&#x679C;&#x53EA;&#x662F;&#x7B80;&#x5355;&#x5206;&#x5272;&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&apos;163,gmail,hotmail,outlook&apos;</span>.split(<span class="hljs-string">&apos;,&apos;</span>)    <span class="hljs-comment">// [&quot;163&quot;, &quot;gmail&quot;, &quot;hotmail&quot;, &quot;outlook&quot;]</span>
+<span class="hljs-string">&apos;163,gmail,hotmail,outlook&apos;</span>.split(<span class="hljs-string">&apos;,&apos;</span>,<span class="hljs-number">3</span>)<span class="hljs-comment">// [&quot;163&quot;, &quot;gmail&quot;, &quot;hotmail&quot;]</span>
+<span class="hljs-string">&apos;abcdef&apos;</span>.split(<span class="hljs-string">&apos;&apos;</span>)        <span class="hljs-comment">// [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;, &quot;f&quot;]</span>
+</code></pre>
+<p>&#x5982;&#x679C;&#x662F;&#x590D;&#x6742;&#x7684;&#x5206;&#x5272;&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> reg = <span class="hljs-regexp">/\d*[\u4e00-\u9fa5]\/[\u4e00-\u9fa5]\,/</span>    <span class="hljs-comment">// &#x5339;&#x914D;&#xFF08;10&#x5143;/&#x65A4;,&#xFF09;</span>
+<span class="hljs-string">&quot;&#x9E21;&#x8089;10&#x5143;/&#x65A4;,&#x9C7C;&#x8089;20&#x5143;/&#x65A4;,&#x725B;&#x8089;30&#x5143;/&#x65A4;,&quot;</span>.split(reg)        <span class="hljs-comment">// [&quot;&#x9E21;&#x8089;&quot;, &quot;&#x9C7C;&#x8089;&quot;, &quot;&#x725B;&#x8089;&quot;, &quot;&quot;]</span>
+</code></pre>
+<h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;">&#x53C2;&#x8003;&#x8D44;&#x6599;</h2>
+<ul>
+<li><p>&#x9965;&#x4EBA;&#x8C37;&#x8BFE;&#x4EF6;</p>
+<p><a href="http://book.jirengu.com/fe/&#x524D;&#x7AEF;&#x57FA;&#x7840;/Javascript/&#x6B63;&#x5219;&#x57FA;&#x672C;&#x8BED;&#x6CD5;.html" target="_blank">&#x6B63;&#x5219;&#x57FA;&#x672C;&#x8BED;&#x6CD5;</a></p>
+<p><a href="http://book.jirengu.com/fe/&#x524D;&#x7AEF;&#x57FA;&#x7840;/Javascript/&#x6B63;&#x5219;&#x76F8;&#x5173;&#x65B9;&#x6CD5;.html" target="_blank">&#x6B63;&#x5219;&#x76F8;&#x5173;&#x65B9;&#x6CD5;</a></p>
+</li>
+<li><p>mdn&#x8D44;&#x6599;</p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions#special-negated-character-set" target="_blank">&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp#assertions" target="_blank">RegExp&#x5BF9;&#x8C61;&#x4ECB;&#x7ECD;</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank">String&#x5BF9;&#x8C61;&#x4ECB;&#x7ECD;</a></p>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="dom.html" class="navigation navigation-next navigation-unique" aria-label="Next page: dom">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"正则表达式","level":"1.4.1","depth":2,"next":{"title":"dom","level":"1.4.2","depth":2,"path":"doc/JavaScript/dom.md","ref":"doc/JavaScript/dom.md","articles":[]},"previous":{"title":"JavaScript","level":"1.4","depth":1,"ref":"","articles":[{"title":"正则表达式","level":"1.4.1","depth":2,"path":"doc/JavaScript/JS-正则表达式.md","ref":"doc/JavaScript/JS-正则表达式.md","articles":[]},{"title":"dom","level":"1.4.2","depth":2,"path":"doc/JavaScript/dom.md","ref":"doc/JavaScript/dom.md","articles":[]},{"title":"排序算法.md","level":"1.4.3","depth":2,"path":"doc/JavaScript/JS-排序算法.md","ref":"doc/JavaScript/JS-排序算法.md","articles":[]},{"title":"正则表达式","level":"1.4.4","depth":2,"path":"doc/JavaScript/JS-正则表达式.md","ref":"doc/JavaScript/JS-正则表达式.md","articles":[]},{"title":"1对象-构造函数-原型链","level":"1.4.5","depth":2,"path":"doc/JavaScript/JS-1对象-构造函数-原型链.md","ref":"doc/JavaScript/JS-1对象-构造函数-原型链.md","articles":[]},{"title":"2node搭建服务器、API接口编写","level":"1.4.6","depth":2,"path":"doc/JavaScript/JS-2node搭建服务器、API接口编写.md","ref":"doc/JavaScript/JS-2node搭建服务器、API接口编写.md","articles":[]},{"title":"3this-call-apply-bind","level":"1.4.7","depth":2,"path":"doc/JavaScript/JS-3this-call-apply-bind.md","ref":"doc/JavaScript/JS-3this-call-apply-bind.md","articles":[]},{"title":"4数据类型转换","level":"1.4.8","depth":2,"path":"doc/JavaScript/JS-4数据类型转换.md","ref":"doc/JavaScript/JS-4数据类型转换.md","articles":[]},{"title":"5跨域","level":"1.4.9","depth":2,"path":"doc/JavaScript/JS-5跨域.md","ref":"doc/JavaScript/JS-5跨域.md","articles":[]},{"title":"6Ajax","level":"1.4.10","depth":2,"path":"doc/JavaScript/6Ajax.md","ref":"doc/JavaScript/6Ajax.md","articles":[]},{"title":"7函数","level":"1.4.11","depth":2,"path":"doc/JavaScript/JS-7函数.md","ref":"doc/JavaScript/JS-7函数.md","articles":[]},{"title":"8Date日期","level":"1.4.12","depth":2,"path":"doc/JavaScript/JS-8Date日期.md","ref":"doc/JavaScript/JS-8Date日期.md","articles":[]},{"title":"JS获取标签宽高及实例","level":"1.4.13","depth":2,"path":"doc/JavaScript/JS获取标签宽高及实例.md","ref":"doc/JavaScript/JS获取标签宽高及实例.md","articles":[]},{"title":"webpack教程","level":"1.4.14","depth":2,"path":"doc/JavaScript/webpack教程.md","ref":"doc/JavaScript/webpack教程.md","articles":[]},{"title":"高级","level":"1.4.15","depth":2,"ref":"","articles":[{"title":"常用的代码片段","level":"1.4.15.1","depth":3,"path":"doc/JavaScript/advanced/常用的代码片段.md","ref":"doc/JavaScript/advanced/常用的代码片段.md","articles":[]},{"title":"浏览器兼容","level":"1.4.15.2","depth":3,"path":"doc/JavaScript/advanced/浏览器兼容.md","ref":"doc/JavaScript/advanced/浏览器兼容.md","articles":[]},{"title":"SEO搜索引擎优化","level":"1.4.15.3","depth":3,"path":"doc/JavaScript/advanced/html-SEO搜索引擎优化.md","ref":"doc/JavaScript/advanced/html-SEO搜索引擎优化.md","articles":[]},{"title":"手机端页面开发","level":"1.4.15.4","depth":3,"path":"doc/JavaScript/advanced/手机端页面开发.md","ref":"doc/JavaScript/advanced/手机端页面开发.md","articles":[]},{"title":"原生JS实现一些页面组件","level":"1.4.15.5","depth":3,"path":"doc/JavaScript/advanced/原生JS实现一些页面组件.md","ref":"doc/JavaScript/advanced/原生JS实现一些页面组件.md","articles":[]}]},{"title":"dom","level":"1.4.16","depth":2,"ref":"","articles":[{"title":"dom节点-1节点的类型","level":"1.4.16.1","depth":3,"path":"doc/JavaScript/dom/dom-1节点的类型.md","ref":"doc/JavaScript/dom/dom-1节点的类型.md","articles":[]},{"title":"dom节点-2节点的关系","level":"1.4.16.2","depth":3,"path":"doc/JavaScript/dom/dom-2节点的关系.md","ref":"doc/JavaScript/dom/dom-2节点的关系.md","articles":[]},{"title":"dom节点-3节点的操作","level":"1.4.16.3","depth":3,"path":"doc/JavaScript/dom/dom-3节点的操作.md","ref":"doc/JavaScript/dom/dom-3节点的操作.md","articles":[]},{"title":"dom节点-4-HTMLCollection-NodeList","level":"1.4.16.4","depth":3,"path":"doc/JavaScript/dom/dom-4-动态集合NodeLIst-HTMLCollection.md","ref":"doc/JavaScript/dom/dom-4-动态集合NodeLIst-HTMLCollection.md","articles":[]},{"title":"dom-5-Element","level":"1.4.16.5","depth":3,"path":"doc/JavaScript/dom/dom-5Element.md","ref":"doc/JavaScript/dom/dom-5Element.md","articles":[]}]},{"title":"JavaScript设计模式","level":"1.4.17","depth":2,"path":"doc/JavaScript/designPattern/设计模式文档.md","ref":"doc/JavaScript/designPattern/设计模式文档.md","articles":[]},{"title":"vue、react框架模板搭建","level":"1.4.18","depth":2,"ref":"","articles":[{"title":"使用vue-cli搭建一个空项目","level":"1.4.18.1","depth":3,"path":"doc/JavaScript/advanced/vue项目搭建.md","ref":"doc/JavaScript/advanced/vue项目搭建.md","articles":[]},{"title":"使用create-react-app搭建一个空项目","level":"1.4.18.2","depth":3,"path":"doc/JavaScript/advanced/react项目搭建.md","ref":"doc/JavaScript/advanced/react项目搭建.md","articles":[]}]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"doc/JavaScript/JS-正则表达式.md","mtime":"2018-10-25T03:29:17.181Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-30T03:47:33.035Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
